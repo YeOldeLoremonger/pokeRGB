@@ -165,6 +165,7 @@ SaveSAV:
 	call PlaceString
 	ld c, 120
 	call DelayFrames
+    call SaveSAVtoSRAM
 	ld hl, GameSavedText
 	call PrintText
 	ld a, SFX_SAVE
@@ -219,6 +220,10 @@ SaveSAVtoSRAM0:
 	ld hl, wBoxDataStart
 	ld de, sCurBoxData
 	ld bc, wBoxDataEnd - wBoxDataStart
+	call CopyData
+    ld hl, wPartyDataStart
+	ld de, sPartyData
+	ld bc, wPartyDataEnd - wPartyDataStart
 	call CopyData
 	ldh a, [hTileAnimations]
 	ld [sTileAnimations], a
@@ -277,9 +282,7 @@ SaveSAVtoSRAM2:
 SaveSAVtoSRAM::
 	ld a, $2
 	ld [wSaveFileStatus], a
-	call SaveSAVtoSRAM0
-	call SaveSAVtoSRAM1
-	jp SaveSAVtoSRAM2
+	jp SaveSAVtoSRAM0
 
 SAVCheckSum:
 ;Check Sum (result[1 byte] is complemented)

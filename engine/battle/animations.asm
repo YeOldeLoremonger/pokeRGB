@@ -1340,8 +1340,7 @@ AdjustOAMBlockYPos2:
 	add b
 	cp 112
 	jr c, .skipSettingPreviousEntrysAttribute
-	dec hl
-	ld a, 160 ; bug, sets previous OAM entry's attribute
+	ld a, 160
 	ld [hli], a
 .skipSettingPreviousEntrysAttribute
 	ld [hl], a
@@ -1834,10 +1833,7 @@ _AnimationSlideMonOff:
 .PlayerNextTile
 	ld a, [hl]
 	add 7
-; This is a bug. The lower right corner tile of the mon back pic is blanked
-; while the mon is sliding off the screen. It should compare with the max tile
-; plus one instead.
-	cp $61
+	cp $62
 	ret c
 	ld a, " "
 	ret
@@ -1845,9 +1841,7 @@ _AnimationSlideMonOff:
 .EnemyNextTile
 	ld a, [hl]
 	sub 7
-; This has the same problem as above, but it has no visible effect because
-; the lower right tile is in the first column to slide off the screen.
-	cp $30
+	cp $31
 	ret c
 	ld a, " "
 	ret
@@ -1885,6 +1879,8 @@ AnimationWavyScreen:
 	ld c, $ff
 	ld hl, WavyScreenLineOffsets
 .loop
+	ld a, [hl]
+	ldh [hSCX], a
 	push hl
 .innerLoop
 	call WavyScreen_SetSCX
@@ -1901,6 +1897,7 @@ AnimationWavyScreen:
 	dec c
 	jr nz, .loop
 	xor a
+    ldh [hSCX], a
 	ldh [hWY], a
 	call SaveScreenTilesToBuffer2
 	call ClearScreen
