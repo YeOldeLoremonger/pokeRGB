@@ -11,7 +11,7 @@ GameCorner_Object:
 
 	def_object_events
 	object_event  2,  6, SPRITE_BEAUTY, STAY, DOWN, 1 ; person
-	object_event  5,  6, SPRITE_CLERK, STAY, DOWN, 2 ; person
+	object_event  5,  6, SPRITE_CLERK, WALK, LEFT_RIGHT, 2 ; person
 	object_event  2, 10, SPRITE_MIDDLE_AGED_MAN, STAY, LEFT, 3 ; person
 	object_event  2, 13, SPRITE_BEAUTY, STAY, LEFT, 4 ; person
 	object_event  5, 11, SPRITE_FISHING_GURU, STAY, RIGHT, 5 ; person

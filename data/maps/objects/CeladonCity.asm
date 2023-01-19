@@ -31,11 +31,11 @@ CeladonCity_Object:
 	object_event  8, 17, SPRITE_LITTLE_GIRL, WALK, ANY_DIR, 1 ; person
 	object_event 11, 28, SPRITE_GRAMPS, STAY, UP, 2 ; person
 	object_event 14, 19, SPRITE_GIRL, WALK, UP_DOWN, 3 ; person
-	object_event 25, 22, SPRITE_GRAMPS, STAY, DOWN, 4 ; person
-	object_event 22, 16, SPRITE_GRAMPS, STAY, DOWN, 5 ; person
+	object_event 25, 22, SPRITE_GRAMPS, WALK, LEFT_RIGHT, 4 ; person
+	object_event 22, 16, SPRITE_GRAMPS, WALK, ANY_DIR, 5 ; person
 	object_event 32, 12, SPRITE_FISHER, STAY, LEFT, 6 ; person
 	object_event 30, 12, SPRITE_MONSTER, STAY, RIGHT, 7 ; person
-	object_event 32, 29, SPRITE_ROCKET, WALK, LEFT_RIGHT, 8 ; person
-	object_event 42, 14, SPRITE_ROCKET, WALK, LEFT_RIGHT, 9 ; person
+	object_event 32, 29, SPRITE_ROCKET, WALK, ANY_DIR, 8 ; person
+	object_event 42, 14, SPRITE_ROCKET, WALK, ANY_DIR, 9 ; person
 
 	def_warps_to CELADON_CITY

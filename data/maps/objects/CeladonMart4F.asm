@@ -11,7 +11,7 @@ CeladonMart4F_Object:
 
 	def_object_events
 	object_event  5,  7, SPRITE_CLERK, STAY, NONE, 1 ; person
-	object_event 15,  5, SPRITE_SUPER_NERD, WALK, LEFT_RIGHT, 2 ; person
+	object_event 11,  5, SPRITE_SUPER_NERD, WALK, ANY_DIR, 2 ; person
 	object_event  5,  2, SPRITE_YOUNGSTER, WALK, LEFT_RIGHT, 3 ; person
 
 	def_warps_to CELADON_MART_4F

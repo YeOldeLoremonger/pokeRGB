@@ -149,9 +149,9 @@ HiddenObjectPointers:
 	dw Unused6FHiddenObjects
 	dw BillsHouseHiddenObjects
 	dw ViridianCityHiddenObjects
-	dw SafariZoneRestHouse2HiddenObjects
-	dw SafariZoneRestHouse3HiddenObjects
-	dw SafariZoneRestHouse4HiddenObjects
+	dw SafariZoneWestRestHouseHiddenObjects
+	dw SafariZoneEastRestHouseHiddenObjects
+	dw SafariZoneNorthRestHouseHiddenObjects
 	dw Route15GateUpstairsHiddenObjects
 	dw LavenderHouse1HiddenObjects
 	dw CeladonMansion5HiddenObjects
@@ -561,19 +561,19 @@ ViridianCityHiddenObjects:
 	hidden_object 14,  4, POTION, HiddenItems
 	db -1 ; end
 
-SafariZoneRestHouse2HiddenObjects:
+SafariZoneWestRestHouseHiddenObjects:
 	hidden_object  0,  4, SPRITE_FACING_LEFT, PrintBenchGuyText
-	hidden_object 13,  3, SPRITE_FACING_UP, OpenPokemonCenterPC
+	hidden_object  7,  5, SPRITE_FACING_UP, OpenPokemonCenterPC
 	db -1 ; end
 
-SafariZoneRestHouse3HiddenObjects:
+SafariZoneEastRestHouseHiddenObjects:
 	hidden_object  0,  4, SPRITE_FACING_LEFT, PrintBenchGuyText
-	hidden_object 13,  3, SPRITE_FACING_UP, OpenPokemonCenterPC
+	hidden_object  7,  5, SPRITE_FACING_UP, OpenPokemonCenterPC
 	db -1 ; end
 
-SafariZoneRestHouse4HiddenObjects:
+SafariZoneNorthRestHouseHiddenObjects:
 	hidden_object  0,  4, SPRITE_FACING_LEFT, PrintBenchGuyText
-	hidden_object 13,  3, SPRITE_FACING_UP, OpenPokemonCenterPC
+	hidden_object  7,  5, SPRITE_FACING_UP, OpenPokemonCenterPC
 	db -1 ; end
 
 Route15GateUpstairsHiddenObjects:

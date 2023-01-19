@@ -4,7 +4,7 @@ CeladonMansion3F_Object:
 	def_warp_events
 	warp_event  6,  1, CELADON_MANSION_2F, 1
 	warp_event  7,  1, CELADON_MANSION_ROOF, 1
-	warp_event  2,  1, CELADON_MANSION_ROOF, 2
+	warp_event  0,  1, CELADON_MANSION_ROOF, 2
 	warp_event  4,  1, CELADON_MANSION_2F, 4
 
 	def_bg_events
@@ -17,6 +17,6 @@ CeladonMansion3F_Object:
 	object_event  0,  4, SPRITE_BIKE_SHOP_CLERK, STAY, UP, 1 ; person
 	object_event  3,  4, SPRITE_CLERK, STAY, UP, 2 ; person
 	object_event  0,  7, SPRITE_SUPER_NERD, STAY, UP, 3 ; person
-	object_event  2,  3, SPRITE_SILPH_WORKER, STAY, NONE, 4 ; person
+	object_event  2,  3, SPRITE_SILPH_WORKER, WALK, ANY_DIR, 4 ; person
 
 	def_warps_to CELADON_MANSION_3F

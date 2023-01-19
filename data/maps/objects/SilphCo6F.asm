@@ -16,10 +16,10 @@ SilphCo6F_Object:
 	object_event 21,  6, SPRITE_ERIKA, STAY, DOWN, 3 ; person
 	object_event 11, 10, SPRITE_ERIKA, STAY, RIGHT, 4 ; person
 	object_event 18, 13, SPRITE_SILPH_WORKER, STAY, UP, 5 ; person
-	object_event 17,  3, SPRITE_ROCKET, STAY, RIGHT, 6, OPP_ROCKET, 30
-	object_event  7,  8, SPRITE_SCIENTIST, STAY, DOWN, 7, OPP_SCIENTIST, 7
-	object_event 14, 15, SPRITE_ROCKET, STAY, LEFT, 8, OPP_ROCKET, 31
+	object_event 17,  3, SPRITE_ROCKET, WALK, ANY_DIR, 6, OPP_ROCKET, 30
+	object_event  7,  8, SPRITE_SCIENTIST, WALK, UP_DOWN, 7, OPP_SCIENTIST, 7
+	object_event 14, 15, SPRITE_ROCKET, WALK, ANY_DIR, 8, OPP_ROCKET, 31
 	object_event  3, 12, SPRITE_POKE_BALL, STAY, NONE, 9, HP_UP
-	object_event  2, 15, SPRITE_POKE_BALL, STAY, NONE, 10, X_ACCURACY
+	object_event  2, 14, SPRITE_POKE_BALL, STAY, NONE, 10, X_ACCURACY
 
 	def_warps_to SILPH_CO_6F

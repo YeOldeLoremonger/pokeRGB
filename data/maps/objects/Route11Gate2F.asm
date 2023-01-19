@@ -10,6 +10,6 @@ Route11Gate2F_Object:
 
 	def_object_events
 	object_event  4,  2, SPRITE_YOUNGSTER, WALK, LEFT_RIGHT, 1 ; person
-	object_event  2,  6, SPRITE_SCIENTIST, STAY, NONE, 2 ; person
+	object_event  2,  6, SPRITE_SCIENTIST, WALK, ANY_DIR, 2 ; person
 
 	def_warps_to ROUTE_11_GATE_2F
