@@ -202,17 +202,17 @@ _RockTunnelPokecenterGuyText::
 	cont "LAVENDER TOWN!"
 	done
 
-_UnusedBenchGuyText1::
+_SafariZoneNorthRestHouseGuyText::
 	text "I wish I could"
 	line "catch #MON."
 	done
 
-_UnusedBenchGuyText2::
+_SafariZoneWestRestHouseGuyText::
 	text "I'm tired from"
 	line "all the fun..."
 	done
 
-_UnusedBenchGuyText3::
+_SafariZoneEastRestHouseGuyText::
 	text "SILPH's manager"
 	line "is hiding in the"
 	cont "SAFARI ZONE."

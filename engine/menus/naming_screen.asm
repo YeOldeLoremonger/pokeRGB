@@ -33,6 +33,7 @@ AskName:
 	ld a, [wIsInBattle]
 	and a
 	jr nz, .inBattle
+    call ReloadTilesetTilePatterns
 	call ReloadMapSpriteTilePatterns
 .inBattle
 	call LoadScreenTilesFromBuffer1

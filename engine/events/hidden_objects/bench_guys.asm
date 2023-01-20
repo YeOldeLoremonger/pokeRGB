@@ -47,16 +47,16 @@ RockTunnelPokecenterBenchGuyText::
 	text_far _RockTunnelPokecenterGuyText
 	text_end
 
-UnusedBenchGuyText1::
-	text_far _UnusedBenchGuyText1
+SafariZoneNorthRestHouseGuyText::
+	text_far _SafariZoneNorthRestHouseGuyText
 	text_end
 
-UnusedBenchGuyText2::
-	text_far _UnusedBenchGuyText2
+SafariZoneWestRestHouseGuyText::
+	text_far _SafariZoneWestRestHouseGuyText
 	text_end
 
-UnusedBenchGuyText3::
-	text_far _UnusedBenchGuyText3
+SafariZoneEastRestHouseGuyText::
+	text_far _SafariZoneEastRestHouseGuyText
 	text_end
 
 VermilionCityPokecenterBenchGuyText::
