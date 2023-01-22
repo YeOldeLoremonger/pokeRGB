@@ -99,9 +99,9 @@ _TM42NoRoomText::
 	done
 
 _ViridianCityText_1920a::
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "Mmm, I guess I was"
+	line "pretty drunk! My"
+	cont "head hurts..."
 
 	para "Sure you can go"
 	line "through!"

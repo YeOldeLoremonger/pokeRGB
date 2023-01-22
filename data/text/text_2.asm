@@ -582,8 +582,8 @@ _RedBedroomSNESText::
 	done
 
 _Route15UpstairsBinocularsText::
-	text "Looked into the"
-	line "binoculars..."
+	text "Looked in, heard a"
+	line "far cry echoing..."
 
 	para "A large, shining"
 	line "bird is flying"
