@@ -37,6 +37,7 @@ TypeEffects:
 	db FIGHTING,     NORMAL,       SUPER_EFFECTIVE
 	db FIGHTING,     POISON,       NOT_VERY_EFFECTIVE
 	db FIGHTING,     FLYING,       NOT_VERY_EFFECTIVE
+	db FIGHTING,     BIRD,         SUPER_EFFECTIVE
 	db FIGHTING,     PSYCHIC_TYPE, NOT_VERY_EFFECTIVE
 	db FIGHTING,     BUG,          NOT_VERY_EFFECTIVE
 	db FIGHTING,     ROCK,         SUPER_EFFECTIVE
@@ -56,7 +57,7 @@ TypeEffects:
 	db GROUND,       POISON,       SUPER_EFFECTIVE
 	db FLYING,       ELECTRIC,     NOT_VERY_EFFECTIVE
 	db FLYING,       FIGHTING,     SUPER_EFFECTIVE
-	db FLYING,       BUG,          SUPER_EFFECTIVE
+	db BIRD,         BUG,          SUPER_EFFECTIVE
 	db FLYING,       GRASS,        SUPER_EFFECTIVE
 	db FLYING,       ROCK,         NOT_VERY_EFFECTIVE
 	db PSYCHIC_TYPE, FIGHTING,     SUPER_EFFECTIVE
@@ -65,13 +66,14 @@ TypeEffects:
 	db BUG,          GRASS,        SUPER_EFFECTIVE
 	db BUG,          FIGHTING,     NOT_VERY_EFFECTIVE
 	db BUG,          FLYING,       NOT_VERY_EFFECTIVE
+    db BUG,          BIRD,         NOT_VERY_EFFECTIVE
 	db BUG,          PSYCHIC_TYPE, SUPER_EFFECTIVE
 	db BUG,          GHOST,        NOT_VERY_EFFECTIVE
 	db BUG,          POISON,       SUPER_EFFECTIVE
 	db ROCK,         FIRE,         SUPER_EFFECTIVE
 	db ROCK,         FIGHTING,     NOT_VERY_EFFECTIVE
 	db ROCK,         GROUND,       NOT_VERY_EFFECTIVE
-	db ROCK,         FLYING,       SUPER_EFFECTIVE
+	db ROCK,         BIRD,         SUPER_EFFECTIVE
 	db ROCK,         BUG,          SUPER_EFFECTIVE
 	db ROCK,         ICE,          SUPER_EFFECTIVE
 	db GHOST,        NORMAL,       NO_EFFECT
