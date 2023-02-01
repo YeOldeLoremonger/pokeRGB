@@ -1,7 +1,7 @@
 _CeladonMart4Text2::
-	text "I'm getting a"
-	line "# DOLL for my"
-	cont "girl friend!"
+	text "I heard Marowak"
+	line "think #DOLLs"
+	cont "are real Cubone!"
 	done
 
 _CeladonMart4Text3::

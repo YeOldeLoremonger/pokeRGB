@@ -1,9 +1,9 @@
 _CeladonPrizeRoomText1::
-	text "I sure do fancy"
-	line "that PORYGON!"
+	text "Draining moves and"
+	line "Dream Eater still"
 
-	para "But, it's hard to"
-	line "win at slots!"
+	para "hit even if you"
+	line "used Substitute!"
 	done
 
 _CeladonPrizeRoomText2::
