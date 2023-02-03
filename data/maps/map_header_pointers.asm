@@ -12,7 +12,7 @@ MapHeaderPointers::
 	dw CinnabarIsland_h
 	dw IndigoPlateau_h
 	dw SaffronCity_h
-	dw SaffronCity_h ; UNUSED_MAP_0B
+	dw BrickCity_h
 	dw Route1_h
 	dw Route2_h
 	dw Route3_h
@@ -106,9 +106,9 @@ MapHeaderPointers::
 	dw SSAnne1FRooms_h
 	dw SSAnne2FRooms_h
 	dw SSAnneB1FRooms_h
-	dw LancesRoom_h ; UNUSED_MAP_69
-	dw LancesRoom_h ; UNUSED_MAP_6A
-	dw LancesRoom_h ; UNUSED_MAP_6B
+	dw BrickCave_h
+	dw BrickCaveRoute18_h
+	dw BrickCaveBrickCity_h
 	dw VictoryRoad1F_h
 	dw LancesRoom_h ; UNUSED_MAP_6D
 	dw LancesRoom_h ; UNUSED_MAP_6E

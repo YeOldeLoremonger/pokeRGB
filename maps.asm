@@ -1219,3 +1219,23 @@ INCLUDE "data/maps/headers/AgathasRoom.asm"
 INCLUDE "scripts/AgathasRoom.asm"
 INCLUDE "data/maps/objects/AgathasRoom.asm"
 AgathasRoom_Blocks: INCBIN "maps/AgathasRoom.blk"
+
+INCLUDE "data/maps/headers/BrickCity.asm"
+INCLUDE "scripts/BrickCity.asm"
+INCLUDE "data/maps/objects/BrickCity.asm"
+BrickCity_Blocks: INCBIN "maps/BrickCity.blk"
+
+INCLUDE "data/maps/headers/BrickCave.asm"
+INCLUDE "scripts/BrickCave.asm"
+INCLUDE "data/maps/objects/BrickCave.asm"
+BrickCave_Blocks: INCBIN "maps/BrickCave.blk"
+
+INCLUDE "data/maps/headers/BrickCaveRoute18.asm"
+INCLUDE "scripts/BrickCaveRoute18.asm"
+INCLUDE "data/maps/objects/BrickCaveRoute18.asm"
+BrickCaveRoute18_Blocks: INCBIN "maps/BrickCaveRoute18.blk"
+
+INCLUDE "data/maps/headers/BrickCaveBrickCity.asm"
+INCLUDE "scripts/BrickCaveBrickCity.asm"
+INCLUDE "data/maps/objects/BrickCaveBrickCity.asm"
+BrickCaveBrickCity_Blocks: INCBIN "maps/BrickCaveBrickCity.blk"

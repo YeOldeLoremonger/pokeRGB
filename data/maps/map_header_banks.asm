@@ -12,7 +12,7 @@ MapHeaderBanks::
 	db BANK(CinnabarIsland_h)
 	db BANK(IndigoPlateau_h)
 	db BANK(SaffronCity_h)
-	db $01 ; UNUSED_MAP_0B
+	db BANK(BrickCity_h)
 	db BANK(Route1_h)
 	db BANK(Route2_h)
 	db BANK(Route3_h)
@@ -106,9 +106,9 @@ MapHeaderBanks::
 	db BANK(SSAnne1FRooms_h)
 	db BANK(SSAnne2FRooms_h)
 	db BANK(SSAnneB1FRooms_h)
-	db $1D ; UNUSED_MAP_69
-	db $1D ; UNUSED_MAP_6A
-	db $1D ; UNUSED_MAP_6B
+	db BANK(BrickCave_h)
+	db BANK(BrickCaveRoute18_h)
+	db BANK(BrickCaveBrickCity_h)
 	db BANK(VictoryRoad1F_h)
 	db $1D ; UNUSED_MAP_6D
 	db $1D ; UNUSED_MAP_6E
