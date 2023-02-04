@@ -125,8 +125,9 @@ MainMenu:
 	jp SpecialEnterMap
 
 InitOptions:
-	ld a, TEXT_DELAY_FAST
 	ld [wLetterPrintingDelayFlags], a
+	ld a, TEXT_DELAY_INST
+	ld a, TEXT_DELAY_FAST
 	ld a, TEXT_DELAY_MEDIUM
 	ld [wOptions], a
 	ret
@@ -562,30 +563,35 @@ DisplayOptionMenu:
 	ld a, [wOptionsTextSpeedCursorX] ; text speed cursor X coordinate
 	cp 1
 	jr z, .updateTextSpeedXCoord
-	cp 7
+	cp 6
+	jr z, .fromFastToInst
+	cp 11
 	jr nz, .fromSlowToMedium
-	sub 6
+	sub 5
+	jr .updateTextSpeedXCoord
+.fromFastToInst
+	sub 5
 	jr .updateTextSpeedXCoord
 .fromSlowToMedium
-	sub 7
+	sub 4
 	jr .updateTextSpeedXCoord
 .pressedRightInTextSpeed
 	ld a, [wOptionsTextSpeedCursorX] ; text speed cursor X coordinate
-	cp 14
+	cp 15
 	jr z, .updateTextSpeedXCoord
-	cp 7
+	cp 11
 	jr nz, .fromFastToMedium
-	add 7
+	add 4
 	jr .updateTextSpeedXCoord
 .fromFastToMedium
-	add 6
+	add 5
 .updateTextSpeedXCoord
 	ld [wOptionsTextSpeedCursorX], a ; text speed cursor X coordinate
 	jp .eraseOldMenuCursor
 
 TextSpeedOptionText:
 	db   "TEXT SPEED"
-	next " FAST  MEDIUM SLOW@"
+	next " INST FAST MED SLO@"
 
 BattleAnimationOptionText:
 	db   "BATTLE ANIMATION"
@@ -680,10 +686,11 @@ SetCursorPositionsFromOptions:
 ; 00: X coordinate of menu cursor
 ; 01: delay after printing a letter (in frames)
 TextSpeedOptionData:
-	db 14, TEXT_DELAY_SLOW
-	db  7, TEXT_DELAY_MEDIUM
-	db  1, TEXT_DELAY_FAST
-	db  7, -1 ; end (default X coordinate)
+	db  1, TEXT_DELAY_INST
+	db  6, TEXT_DELAY_FAST
+	db 11, TEXT_DELAY_MEDIUM
+	db 15, TEXT_DELAY_SLOW
+	db  2, -1 ; end (default X coordinate)
 
 CheckForPlayerNameInSRAM:
 ; Check if the player name data in SRAM has a string terminator character
