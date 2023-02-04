@@ -1,0 +1,15 @@
+BrickCityPokecenter_Script:
+	call Serial_TryEstablishingExternallyClockedConnection
+	jp EnableAutoTextBoxDrawing
+
+BrickCityPokecenter_TextPointers:
+	dw BrickCityHealNurseText
+	dw BrickCityTradeNurseText
+
+BrickCityTradeNurseText:
+	script_cable_club_receptionist
+
+BrickCityHealNurseText:
+	script_pokecenter_nurse
+	
+	text_end

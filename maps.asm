@@ -1219,3 +1219,63 @@ INCLUDE "data/maps/headers/AgathasRoom.asm"
 INCLUDE "scripts/AgathasRoom.asm"
 INCLUDE "data/maps/objects/AgathasRoom.asm"
 AgathasRoom_Blocks: INCBIN "maps/AgathasRoom.blk"
+
+INCLUDE "data/maps/headers/BrickCity.asm"
+INCLUDE "scripts/BrickCity.asm"
+INCLUDE "data/maps/objects/BrickCity.asm"
+BrickCity_Blocks: INCBIN "maps/BrickCity.blk"
+
+INCLUDE "data/maps/headers/BrickCave.asm"
+INCLUDE "scripts/BrickCave.asm"
+INCLUDE "data/maps/objects/BrickCave.asm"
+BrickCave_Blocks: INCBIN "maps/BrickCave.blk"
+
+INCLUDE "data/maps/headers/BrickCaveRoute18.asm"
+INCLUDE "scripts/BrickCaveRoute18.asm"
+INCLUDE "data/maps/objects/BrickCaveRoute18.asm"
+BrickCaveRoute18_Blocks: INCBIN "maps/BrickCaveRoute18.blk"
+
+INCLUDE "data/maps/headers/BrickCaveBrickCity.asm"
+INCLUDE "scripts/BrickCaveBrickCity.asm"
+INCLUDE "data/maps/objects/BrickCaveBrickCity.asm"
+BrickCaveBrickCity_Blocks: INCBIN "maps/BrickCaveBrickCity.blk"
+
+INCLUDE "data/maps/headers/GreenClayGrottos1F.asm"
+INCLUDE "scripts/GreenClayGrottos1F.asm"
+INCLUDE "data/maps/objects/GreenClayGrottos1F.asm"
+GreenClayGrottos1F_Blocks: INCBIN "maps/GreenClayGrottos1F.blk"
+
+INCLUDE "data/maps/headers/GreenClayGrottos2F.asm"
+INCLUDE "scripts/GreenClayGrottos2F.asm"
+INCLUDE "data/maps/objects/GreenClayGrottos2F.asm"
+GreenClayGrottos2F_Blocks: INCBIN "maps/GreenClayGrottos2F.blk"
+
+INCLUDE "data/maps/headers/GreenClayGrottosB1F.asm"
+INCLUDE "scripts/GreenClayGrottosB1F.asm"
+INCLUDE "data/maps/objects/GreenClayGrottosB1F.asm"
+GreenClayGrottosB1F_Blocks: INCBIN "maps/GreenClayGrottosB1F.blk"
+
+INCLUDE "data/maps/headers/BrickCityPokecenter.asm"
+INCLUDE "scripts/BrickCityPokecenter.asm"
+INCLUDE "data/maps/objects/BrickCityPokecenter.asm"
+BrickCityPokecenter_Blocks: INCBIN "maps/BrickCityPokecenter.blk"
+
+INCLUDE "data/maps/headers/BrickCityMart.asm"
+INCLUDE "scripts/BrickCityMart.asm"
+INCLUDE "data/maps/objects/BrickCityMart.asm"
+BrickCityMart_Blocks: INCBIN "maps/BrickCityMart.blk"
+
+INCLUDE "data/maps/headers/PibbleWoods.asm"
+INCLUDE "scripts/PibbleWoods.asm"
+INCLUDE "data/maps/objects/PibbleWoods.asm"
+PibbleWoods_Blocks: INCBIN "maps/PibbleWoods.blk"
+
+INCLUDE "data/maps/headers/DarkFactory.asm"
+INCLUDE "scripts/DarkFactory.asm"
+INCLUDE "data/maps/objects/DarkFactory.asm"
+DarkFactory_Blocks: INCBIN "maps/DarkFactory.blk"
+
+INCLUDE "data/maps/headers/BrickCityGate1F.asm"
+INCLUDE "scripts/BrickCityGate1F.asm"
+INCLUDE "data/maps/objects/BrickCityGate1F.asm"
+BrickCityGate1F_Blocks: INCBIN "maps/BrickCityGate1F.blk"

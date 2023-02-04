@@ -6,6 +6,7 @@ Route18_Object:
 	warp_event 33,  9, ROUTE_18_GATE_1F, 2
 	warp_event 40,  8, ROUTE_18_GATE_1F, 3
 	warp_event 40,  9, ROUTE_18_GATE_1F, 4
+	warp_event 46,  3, BRICK_CAVE_ROUTE_18, 2
 
 	def_bg_events
 	bg_event 43,  7, 4 ; Route18Text4

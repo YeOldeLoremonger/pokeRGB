@@ -12,7 +12,7 @@ MapHeaderPointers::
 	dw CinnabarIsland_h
 	dw IndigoPlateau_h
 	dw SaffronCity_h
-	dw SaffronCity_h ; UNUSED_MAP_0B
+	dw BrickCity_h
 	dw Route1_h
 	dw Route2_h
 	dw Route3_h
@@ -106,19 +106,19 @@ MapHeaderPointers::
 	dw SSAnne1FRooms_h
 	dw SSAnne2FRooms_h
 	dw SSAnneB1FRooms_h
-	dw LancesRoom_h ; UNUSED_MAP_69
-	dw LancesRoom_h ; UNUSED_MAP_6A
-	dw LancesRoom_h ; UNUSED_MAP_6B
+	dw BrickCave_h
+	dw BrickCaveRoute18_h
+	dw BrickCaveBrickCity_h
 	dw VictoryRoad1F_h
-	dw LancesRoom_h ; UNUSED_MAP_6D
-	dw LancesRoom_h ; UNUSED_MAP_6E
-	dw LancesRoom_h ; UNUSED_MAP_6F
-	dw LancesRoom_h ; UNUSED_MAP_70
+	dw GreenClayGrottos1F_h
+	dw GreenClayGrottos2F_h
+	dw GreenClayGrottosB1F_h
+	dw BrickCityPokecenter_h
 	dw LancesRoom_h
-	dw LancesRoom_h ; UNUSED_MAP_72
-	dw LancesRoom_h ; UNUSED_MAP_73
-	dw LancesRoom_h ; UNUSED_MAP_74
-	dw LancesRoom_h ; UNUSED_MAP_75
+	dw BrickCityMart_h
+	dw PibbleWoods_h
+	dw DarkFactory_h
+	dw BrickCityGate1F_h
 	dw HallOfFame_h
 	dw UndergroundPathNorthSouth_h
 	dw ChampionsRoom_h
