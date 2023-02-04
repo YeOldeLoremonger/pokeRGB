@@ -57,7 +57,7 @@ HiddenObjectMaps:
 	db POKEMON_MANSION_3F
 	db ROUTE_23
 	db VICTORY_ROAD_2F
-	db UNUSED_MAP_6F
+	db GREEN_CLAY_GROTTOS_B1F
 	db BILLS_HOUSE
 	db VIRIDIAN_CITY
 	db SAFARI_ZONE_WEST_REST_HOUSE
@@ -206,6 +206,7 @@ ColosseumHiddenObjects:
 RedsHouse2FHiddenObjects:
 	hidden_object  0,  1, SPRITE_FACING_UP, OpenRedsPC
 	hidden_object  3,  5, ANY_FACING, PrintRedSNESText
+	hidden_object  0,  6, SURFBOARD, HiddenItems
 	db -1 ; end
 
 BluesHouseHiddenObjects:
