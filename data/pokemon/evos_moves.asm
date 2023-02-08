@@ -33,7 +33,7 @@ EvosMovesPointerTable:
 	dw BlastoiseEvosMoves
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
-	dw MissingNoEvosMoves
+	dw MissingNo1FEvosMoves
 	dw MissingNo20EvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
@@ -234,6 +234,7 @@ NidoranMEvosMoves:
 ClefairyEvosMoves:
 ; Evolutions
 	db EV_ITEM, MOON_STONE, 1, CLEFABLE
+	db EV_ITEM, VOID_STONE, 1, GENGAR
 	db 0
 ; Learnset
 	db 13, SING
@@ -445,6 +446,7 @@ GyaradosEvosMoves:
 ShellderEvosMoves:
 ; Evolutions
 	db EV_ITEM, WATER_STONE, 1, CLOYSTER
+	db EV_ITEM, VOID_STONE, 1, GASTLY 
 	db 0
 ; Learnset
 	db 18, SUPERSONIC
@@ -471,7 +473,6 @@ TentacoolEvosMoves:
 
 GastlyEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 25, HAUNTER
 	db 0
 ; Learnset
 	db 27, HYPNOSIS
@@ -540,7 +541,7 @@ TangelaEvosMoves:
 	db 49, GROWTH
 	db 0
 
-MissingNoEvosMoves:
+MissingNo1FEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -1686,7 +1687,6 @@ MissingNo92EvosMoves:
 
 HaunterEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, GENGAR
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
