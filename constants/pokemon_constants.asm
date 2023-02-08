@@ -6,7 +6,7 @@
 ; - PokedexOrder (see data/pokemon/dex_order.asm)
 ; - PokedexEntryPointers (see data/pokemon/dex_entries.asm)
 	const_def
-	const NO_MON             ; $00
+	const MISSINGN0         ; $00
 	const RHYDON             ; $01
 	const KANGASKHAN         ; $02
 	const NIDORAN_M          ; $03
@@ -37,7 +37,7 @@
 	const BLASTOISE          ; $1C
 	const PINSIR             ; $1D
 	const TANGELA            ; $1E
-	const_skip               ; $1F
+	const MISSINGNO          ; $1F
 	const_skip               ; $20
 	const GROWLITHE          ; $21
 	const ONIX               ; $22
