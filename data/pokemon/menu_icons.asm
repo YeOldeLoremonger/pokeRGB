@@ -152,4 +152,44 @@ MonPartyData:
 	nybble ICON_MON       ; Mewtwo
 	nybble ICON_MON       ; Mew
 	nybble ICON_HELIX     ; MissingNo
+	nybble ICON_WATER     ; Wartuga
+	nybble ICON_FAIRY	  ; Gorochu
+	nybble ICON_MON		  ; Gyaoon
+	nybble ICON_MON		  ; Nidoran 
+	nybble ICON_FAIRY 	  ; Balunda
+	nybble ICON_MON		  ; Yokaice
+	nybble ICON_QUADRUPED ; Staribou
+	nybble ICON_QUADRUPED ; Gajaphant
+	nybble ICON_SNAKE	  ; Crocky
+	nybble ICON_HELIX	  ; Cephacle
+	nybble ICON_GRASS	  ; Cactics
+	nybble ICON_WATER	  ; Jagg
+	nybble ICON_MON		  ; Tittlebat
+	nybble ICON_BIRD	  ; Crestow
+	nybble ICON_BIRD	  ; Ravenith
+	nybble ICON_MON		  ; Vixinder
+	nybble ICON_MON		  ; Sumorsh
+	nybble ICON_MON		  ; Sumollow
+	nybble ICON_SNAKE	  ; Golm
+	nybble ICON_SNAKE	  ; Cryithan
+	nybble ICON_MON		  ; Onega
+	nybble ICON_HELIX	  ; Poliking
+	nybble ICON_HELIX	  ; Squidacle
+	nybble ICON_BIRD	  ; Keneduck
+	nybble ICON_MON		  ; Konya
+	nybble ICON_BUG		  ; Kokana
+	nybble ICON_MON		  ; Wyrd
+	nybble ICON_BALL	  ; Magnetite
+	nybble ICON_MON		  ; Guardia
+	nybble ICON_WATER	  ; Coiting
+	nybble ICON_MON		  ; Kotora
+	nybble ICON_MON		  ; Raitora
+	nybble ICON_MON		  ; Kukatora
+	nybble ICON_QUADRUPED ; Puchicorn
+	nybble ICON_WATER	  ; Terraping
+	nybble ICON_SNAKE	  ; Molm
+	nybble ICON_HELIX	  ; Yureitops
+	nybble ICON_BIRD	  ; Marodactyl
+	nybble ICON_MON		  ; Apparrish
+	
 	end_nybble_array NUM_POKEMON

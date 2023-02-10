@@ -297,7 +297,27 @@ _TangelaDexEntry::
 	next "weed. Its vines"
 	next "shake as it walks"
 	dex
-
+		
+_GyaoonDexEntry::
+	text "Not much is known"
+	next "about this giant,"
+	next "Kaiju-like dragon"
+	
+	page "#MON. Researchers"
+	next "are currently"
+	next "looking into it"
+	dex 
+		
+_NidoranDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _GrowlitheDexEntry::
 	text "Very protective"
 	next "of its territory."
@@ -467,7 +487,17 @@ _GolemDexEntry::
 	next "dynamite blasts"
 	next "without damage"
 	dex
-
+	
+_BalundaDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _MagmarDexEntry::
 	text "Its body always"
 	next "burns with an"
@@ -477,7 +507,17 @@ _MagmarDexEntry::
 	next "hide perfectly"
 	next "among flames"
 	dex
-
+	
+_YokaiceDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _ElectabuzzDexEntry::
 	text "Normally found"
 	next "near power plants,"
@@ -507,7 +547,17 @@ _KoffingDexEntry::
 	next "prone to exploding"
 	next "without warning"
 	dex
-
+	
+_StaribouDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _MankeyDexEntry::
 	text "Extremely quick to"
 	next "anger. It could"
@@ -547,7 +597,37 @@ _TaurosDexEntry::
 	next "body with its"
 	next "long tails"
 	dex
-
+	
+_GajaphantDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_CrockyDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_CephacleDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _FarfetchdDexEntry::
 	text "The sprig of"
 	next "green onions it"
@@ -577,7 +657,37 @@ _DragoniteDexEntry::
 	next "is said to match"
 	next "that of humans"
 	dex
-
+	
+_CacticsDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_JaggDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_TittlebatDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _DoduoDexEntry::
 	text "A bird that makes"
 	next "up for its poor"
@@ -667,7 +777,37 @@ _KrabbyDexEntry::
 	next "when walking"
 	next "sideways"
 	dex
-
+	
+_CrestowDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_RavenithDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_VixinderDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _VulpixDexEntry::
 	text "At the time of"
 	next "birth, it has"
@@ -707,7 +847,27 @@ _RaichuDexEntry::
 	next "own high voltage"
 	next "power"
 	dex
-
+	
+_SumorshDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_SumollowDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _DratiniDexEntry::
 	text "Long considered a"
 	next "mythical #MON"
@@ -767,7 +927,27 @@ _SeadraDexEntry::
 	next "pectoral fins and"
 	next "stout tail"
 	dex
-
+	
+_GolmDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_CryithanDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _SandshrewDexEntry::
 	text "Burrows deep"
 	next "underground in"
@@ -957,7 +1137,17 @@ _BeedrillDexEntry::
 	next "on its forelegs"
 	next "and tail"
 	dex
-
+	
+_OnegaDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _DodrioDexEntry::
 	text "Uses its three"
 	next "brains to execute"
@@ -1007,7 +1197,27 @@ _DewgongDexEntry::
 	next "even in intensely"
 	next "cold waters"
 	dex
-
+	
+_PolikingDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_SquidacleDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _CaterpieDexEntry::
 	text "Its short feet"
 	next "are tipped with"
@@ -1047,7 +1257,17 @@ _MachampDexEntry::
 	next "victim clear over"
 	next "the horizon"
 	dex
-
+	
+_KeneduckDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _GolduckDexEntry::
 	text "Often seen swim-"
 	next "ming elegantly by"
@@ -1107,7 +1327,27 @@ _MagikarpDexEntry::
 	next "weak descendants"
 	next "that exist today"
 	dex
-
+	
+_KonyaDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_KokonaDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _MukDexEntry::
 	text "Thickly covered"
 	next "with a filthy,"
@@ -1117,7 +1357,17 @@ _MukDexEntry::
 	next "its footprints"
 	next "contain poison"
 	dex
-
+	
+_WyrdDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _KinglerDexEntry::
 	text "The large pincer"
 	next "has 10000 hp of"
@@ -1137,7 +1387,17 @@ _CloysterDexEntry::
 	next "innards have"
 	next "never been seen"
 	dex
-
+	
+_MagnetiteDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _ElectrodeDexEntry::
 	text "It stores electric"
 	next "energy under very"
@@ -1187,7 +1447,17 @@ _MarowakDexEntry::
 	next "like a boomerang"
 	next "to KO targets"
 	dex
-
+	
+_GuardiaDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _HaunterDexEntry::
 	text "Because of its"
 	next "ability to slip"
@@ -1277,7 +1547,17 @@ _TentacruelDexEntry::
 	next "to ensnare and"
 	next "immobilize prey"
 	dex
-
+	
+_CoitingDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _GoldeenDexEntry::
 	text "Its tail fin"
 	next "billows like an"
@@ -1297,7 +1577,47 @@ _SeakingDexEntry::
 	next "fully up rivers"
 	next "and creeks"
 	dex
-
+	
+_KotoraDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_RaitoraDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_KukatoraDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_PuchicornDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _PonytaDexEntry::
 	text "Its hooves are 10"
 	next "times harder than"
@@ -1387,7 +1707,17 @@ _AerodactylDexEntry::
 	next "with its serrated"
 	next "saw-like fangs"
 	dex
-
+	
+_TerrapingDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _MagnemiteDexEntry::
 	text "Uses anti-gravity"
 	next "to stay suspended."
@@ -1396,6 +1726,26 @@ _MagnemiteDexEntry::
 	page "warning and uses"
 	next "THUNDER WAVE and"
 	next "similar moves"
+	dex
+	
+_MolmDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
+_GorochuDexEntry::
+	text "Often thought of as"
+	next "simply a rumor, a"
+	next "single Gorochu is"
+
+	page "said to be able to"
+	next "absorb whole major"
+	next "cities powersupply"
 	dex
 
 _CharmanderDexEntry::
@@ -1447,7 +1797,47 @@ _CharizardDexEntry::
 	next "forest fires"
 	next "unintentionally"
 	dex
+	
+_WartugaDexEntry::
+	text "In ancient times"
+	next "it was called a"
+	next "spirit turtle."
 
+	page "Its tail of"
+	next "seaweed gives it a"
+	next "majestic visage."
+	dex
+	
+_Fossil_KabutopsDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_Fossil_AerodactylDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_Mon_GhostDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
 _OddishDexEntry::
 	text "During the day,"
 	next "it keeps its face"
@@ -1507,7 +1897,7 @@ _VictreebelDexEntry::
 	next "has ever returned"
 	next "from there"
 	dex
-
+	
 _MissingnoDexEntry::
 	text " "
 	next " "
@@ -1517,3 +1907,4 @@ _MissingnoDexEntry::
 	next " "
 	next " "
 	dex 
+	

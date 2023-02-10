@@ -156,5 +156,43 @@
 	const DEX_MEWTWO     ; 150
 	const DEX_MEW        ; 151
 	const DEX_MISSINGNO  ; 152
-
+	const DEX_WARTUGA    ; 153
+	const DEX_GOROCHU    ; 154
+	const DEX_GYAOON	 ; 155
+	const DEX_NIDORAN    ; 156
+	const DEX_BALUNDA	 ; 157
+	const DEX_YOKAICE	 ; 158
+	const DEX_STARIBOU	 ; 159
+	const DEX_GAJAPHANT	 ; 160
+	const DEX_CROCKY	 ; 161
+	const DEX_CEPHACLE	 ; 162
+	const DEX_CACTICS	 ; 163
+	const DEX_JAGG		 ; 164
+	const DEX_TITTLEBAT	 ; 165
+	const DEX_CRESTOW	 ; 166
+	const DEX_RAVENITH	 ; 167
+	const DEX_VIXINDER	 ; 168
+	const DEX_SUMORSH	 ; 169
+	const DEX_SUMOLLOW	 ; 170
+	const DEX_GOLM		 ; 171
+	const DEX_CRYITHAN	 ; 172
+	const DEX_ONEGA		 ; 173
+	const DEX_POLIKING	 ; 174
+	const DEX_SQUIDACLE	 ; 175
+	const DEX_KENEDUCK	 ; 176
+	const DEX_KONYA		 ; 177
+	const DEX_KOKANA	 ; 178
+	const DEX_WYRD		 ; 179
+	const DEX_MAGNETITE	 ; 180
+	const DEX_GUARDIA	 ; 181
+	const DEX_COITING	 ; 182
+	const DEX_KOTORA	 ; 183
+	const DEX_RAITORA	    	 ; 184
+	const DEX_KAKUTORA		    ; 185
+	const DEX_PUCHICORN		    ; 186
+	const DEX_TERRAPING	 	    ; 187
+	const DEX_MOLM			    ; 188
+	const DEX_FOSSIL_KABUTOPS   ; 189
+	const DEX_FOSSIL_AERODACTYL ; 190
+	const DEX_MON_GHOST				; 191
 DEF NUM_POKEMON EQU const_value - 1
