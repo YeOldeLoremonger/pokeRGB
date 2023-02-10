@@ -30,8 +30,8 @@ PokedexEntryPointers:
 	dw BlastoiseDexEntry
 	dw PinsirDexEntry
 	dw TangelaDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw GyaoonDexEntry
+	dw NidoranDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
 	dw FearowDexEntry
@@ -49,26 +49,26 @@ PokedexEntryPointers:
 	dw PsyduckDexEntry
 	dw DrowzeeDexEntry
 	dw GolemDexEntry
-	dw MissingNoDexEntry
+	dw BalundaDexEntry
 	dw MagmarDexEntry
-	dw MissingNoDexEntry
+	dw YokaiceDexEntry
 	dw ElectabuzzDexEntry
 	dw MagnetonDexEntry
 	dw KoffingDexEntry
-	dw MissingNoDexEntry
+	dw StaribouDexEntry
 	dw MankeyDexEntry
 	dw SeelDexEntry
 	dw DiglettDexEntry
 	dw TaurosDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw GajaphantDexEntry
+	dw CrockyDexEntry
+	dw CephacleDexEntry
 	dw FarfetchdDexEntry
 	dw VenonatDexEntry
 	dw DragoniteDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw CacticsDexEntry
+	dw JaggDexEntry
+	dw TittlebatDexEntry
 	dw DoduoDexEntry
 	dw PoliwagDexEntry
 	dw JynxDexEntry
@@ -78,23 +78,23 @@ PokedexEntryPointers:
 	dw DittoDexEntry
 	dw MeowthDexEntry
 	dw KrabbyDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw CrestowDexEntry
+	dw RavenithDexEntry
+	dw VixinderDexEntry
 	dw VulpixDexEntry
 	dw NinetalesDexEntry
 	dw PikachuDexEntry
 	dw RaichuDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw SumorshDexEntry
+	dw SumollowDexEntry
 	dw DratiniDexEntry
 	dw DragonairDexEntry
 	dw KabutoDexEntry
 	dw KabutopsDexEntry
 	dw HorseaDexEntry
 	dw SeadraDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw GolmDexEntry
+	dw LeviatholmDexEntry
 	dw SandshrewDexEntry
 	dw SandslashDexEntry
 	dw OmanyteDexEntry
@@ -114,38 +114,38 @@ PokedexEntryPointers:
 	dw WeedleDexEntry
 	dw KakunaDexEntry
 	dw BeedrillDexEntry
-	dw MissingNoDexEntry
+	dw OmegaDexEntry
 	dw DodrioDexEntry
 	dw PrimeapeDexEntry
 	dw DugtrioDexEntry
 	dw VenomothDexEntry
 	dw DewgongDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw PolikingDexEntry
+	dw SquidacleDexEntry
 	dw CaterpieDexEntry
 	dw MetapodDexEntry
 	dw ButterfreeDexEntry
 	dw MachampDexEntry
-	dw MissingNoDexEntry
+	dw KeneduckDexEntry
 	dw GolduckDexEntry
 	dw HypnoDexEntry
 	dw GolbatDexEntry
 	dw MewtwoDexEntry
 	dw SnorlaxDexEntry
 	dw MagikarpDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw KonyaDexEntry
+	dw KokanaDexEntry
 	dw MukDexEntry
-	dw MissingNoDexEntry
+	dw WyrdDexEntry
 	dw KinglerDexEntry
 	dw CloysterDexEntry
-	dw MissingNoDexEntry
+	dw MagnetiteDexEntry
 	dw ElectrodeDexEntry
 	dw ClefableDexEntry
 	dw WeezingDexEntry
 	dw PersianDexEntry
 	dw MarowakDexEntry
-	dw MissingNoDexEntry
+	dw GuardiaDexEntry
 	dw HaunterDexEntry
 	dw AbraDexEntry
 	dw AlakazamDexEntry
@@ -155,13 +155,13 @@ PokedexEntryPointers:
 	dw BulbasaurDexEntry
 	dw VenusaurDexEntry
 	dw TentacruelDexEntry
-	dw MissingNoDexEntry
+	dw CoitingDexEntry
 	dw GoldeenDexEntry
 	dw SeakingDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw KotoraDexEntry
+	dw RaitoraDexEntry
+	dw KukatoraDexEntry
+	dw PuchicornDexEntry
 	dw PonytaDexEntry
 	dw RapidashDexEntry
 	dw RattataDexEntry
@@ -171,25 +171,27 @@ PokedexEntryPointers:
 	dw GeodudeDexEntry
 	dw PorygonDexEntry
 	dw AerodactylDexEntry
-	dw MissingNoDexEntry
+	dw TerrapingDexEntry
 	dw MagnemiteDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw MolmDexEntry
+	dw GorochuDexEntry
 	dw CharmanderDexEntry
 	dw SquirtleDexEntry
 	dw CharmeleonDexEntry
 	dw WartortleDexEntry
 	dw CharizardDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw WartugaDexEntry
+	dw Fossil_KabutopsDexEntry
+	dw Fossil_AerodactylDexEntry
+	dw Mon_GhostDexEntry
 	dw OddishDexEntry
 	dw GloomDexEntry
 	dw VileplumeDexEntry
 	dw BellsproutDexEntry
 	dw WeepinbellDexEntry
 	dw VictreebelDexEntry
+	dw MissingnoDexEntry
+
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -387,7 +389,7 @@ StaryuDexEntry:
 	text_end
 
 BlastoiseDexEntry:
-	db "SHELLFISH@"
+	db "TORTOISE@"
 	db 5,3
 	dw 1890
 	text_far _BlastoiseDexEntry
@@ -407,6 +409,20 @@ TangelaDexEntry:
 	text_far _TangelaDexEntry
 	text_end
 
+GyaoonDexEntry:
+	db "KAIJU@"
+	db 8,10
+	dw 4000
+	text_far _GyaoonDexEntry
+	text_end
+
+NidoranDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _NidoranDexEntry
+	text_end
+	
 GrowlitheDexEntry:
 	db "PUPPY@"
 	db 2,4
@@ -526,11 +542,25 @@ GolemDexEntry:
 	text_far _GolemDexEntry
 	text_end
 
+BalundaDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _BalundaDexEntry
+	text_end
+	
 MagmarDexEntry:
 	db "SPITFIRE@"
 	db 4,3
 	dw 980
 	text_far _MagmarDexEntry
+	text_end
+	
+YokaiceDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _YokaiceDexEntry
 	text_end
 
 ElectabuzzDexEntry:
@@ -554,6 +584,13 @@ KoffingDexEntry:
 	text_far _KoffingDexEntry
 	text_end
 
+StaribouDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _StaribouDexEntry
+	text_end
+	
 MankeyDexEntry:
 	db "PIG MONKEY@"
 	db 1,8
@@ -582,6 +619,27 @@ TaurosDexEntry:
 	text_far _TaurosDexEntry
 	text_end
 
+GajaphantDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _GajaphantDexEntry
+	text_end
+	
+CrockyDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _CrockyDexEntry
+	text_end
+	
+CephacleDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _CephacleDexEntry
+	text_end
+	
 FarfetchdDexEntry:
 	db "WILD DUCK@"
 	db 2,7
@@ -603,6 +661,27 @@ DragoniteDexEntry:
 	text_far _DragoniteDexEntry
 	text_end
 
+CacticsDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _CacticsDexEntry
+	text_end
+	
+JaggDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _JaggDexEntry
+	text_end
+	
+TittlebatDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _TittlebatDexEntry
+	text_end
+	
 DoduoDexEntry:
 	db "TWIN BIRD@"
 	db 4,7
@@ -666,6 +745,27 @@ KrabbyDexEntry:
 	text_far _KrabbyDexEntry
 	text_end
 
+CrestowDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _CrestowDexEntry
+	text_end
+	
+RavenithDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _RavenithDexEntry
+	text_end
+	
+VixinderDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _VixinderDexEntry
+	text_end
+	
 VulpixDexEntry:
 	db "FOX@"
 	db 2,0
@@ -694,6 +794,20 @@ RaichuDexEntry:
 	text_far _RaichuDexEntry
 	text_end
 
+SumorshDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _SumorshDexEntry
+	text_end
+	
+SumollowDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _SumollowDexEntry
+	text_end
+	
 DratiniDexEntry:
 	db "DRAGON@"
 	db 5,11
@@ -734,6 +848,20 @@ SeadraDexEntry:
 	db 3,11
 	dw 550
 	text_far _SeadraDexEntry
+	text_end
+
+GolmDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _GolmDexEntry
+	text_end
+
+LeviatholmDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _LeviatholmDexEntry
 	text_end
 
 SandshrewDexEntry:
@@ -869,6 +997,13 @@ BeedrillDexEntry:
 	text_far _BeedrillDexEntry
 	text_end
 
+OmegaDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _OmegaDexEntry
+	text_end
+
 DodrioDexEntry:
 	db "TRIPLEBIRD@"
 	db 5,11
@@ -904,6 +1039,20 @@ DewgongDexEntry:
 	text_far _DewgongDexEntry
 	text_end
 
+PolikingDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _PolikingDexEntry
+	text_end
+
+SquidacleDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _SquidacleDexEntry
+	text_end
+
 CaterpieDexEntry:
 	db "WORM@"
 	db 1,0
@@ -930,6 +1079,13 @@ MachampDexEntry:
 	db 5,3
 	dw 2870
 	text_far _MachampDexEntry
+	text_end
+
+KeneduckDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _KeneduckDexEntry
 	text_end
 
 GolduckDexEntry:
@@ -974,11 +1130,32 @@ MagikarpDexEntry:
 	text_far _MagikarpDexEntry
 	text_end
 
+KonyaDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _KonyaDexEntry
+	text_end
+
+KokanaDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _KokanaDexEntry
+	text_end
+
 MukDexEntry:
 	db "SLUDGE@"
 	db 3,11
 	dw 660
 	text_far _MukDexEntry
+	text_end
+
+WyrdDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _WyrdDexEntry
 	text_end
 
 KinglerDexEntry:
@@ -993,6 +1170,13 @@ CloysterDexEntry:
 	db 4,11
 	dw 2920
 	text_far _CloysterDexEntry
+	text_end
+
+MagnetiteDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _MagnetiteDexEntry
 	text_end
 
 ElectrodeDexEntry:
@@ -1028,6 +1212,13 @@ MarowakDexEntry:
 	db 3,3
 	dw 990
 	text_far _MarowakDexEntry
+	text_end
+
+GuardiaDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _GuardiaDexEntry
 	text_end
 
 HaunterDexEntry:
@@ -1093,6 +1284,13 @@ TentacruelDexEntry:
 	text_far _TentacruelDexEntry
 	text_end
 
+CoitingDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _CoitingDexEntry
+	text_end
+
 GoldeenDexEntry:
 	db "GOLDFISH@"
 	db 2,0
@@ -1105,6 +1303,34 @@ SeakingDexEntry:
 	db 4,3
 	dw 860
 	text_far _SeakingDexEntry
+	text_end
+
+KotoraDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _KotoraDexEntry
+	text_end
+
+RaitoraDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _RaitoraDexEntry
+	text_end
+
+KukatoraDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _KukatoraDexEntry
+	text_end
+
+PuchicornDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _PuchicornDexEntry
 	text_end
 
 PonytaDexEntry:
@@ -1170,6 +1396,13 @@ AerodactylDexEntry:
 	text_far _AerodactylDexEntry
 	text_end
 
+TerrapingDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _TerrapingDexEntry
+	text_end
+
 MagnemiteDexEntry:
 	db "MAGNET@"
 	db 1,0
@@ -1177,6 +1410,20 @@ MagnemiteDexEntry:
 	text_far _MagnemiteDexEntry
 	text_end
 
+MolmDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _MolmDexEntry
+	text_end
+
+GorochuDexEntry:
+	db "MOUSE@"
+	db 4,8
+	dw 780
+	text_far _GorochuDexEntry
+	text_end
+	
 CharmanderDexEntry:
 	db "LIZARD@"
 	db 2,0
@@ -1210,6 +1457,34 @@ CharizardDexEntry:
 	db 5,7
 	dw 2000
 	text_far _CharizardDexEntry
+	text_end
+	
+WartugaDexEntry:
+	db "TORTUGA@"
+	db 6,3
+	dw 1260
+	text_far _WartugaDexEntry
+	text_end
+
+Fossil_KabutopsDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _Fossil_KabutopsDexEntry
+	text_end
+
+Fossil_AerodactylDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _Fossil_AerodactylDexEntry
+	text_end
+
+Mon_GhostDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far Mon_GhostDexEntry
 	text_end
 
 OddishDexEntry:
@@ -1254,8 +1529,9 @@ VictreebelDexEntry:
 	text_far _VictreebelDexEntry
 	text_end
 
-MissingNoDexEntry:
+MissingnoDexEntry:
 	db "???@"
 	db 10 ; 1.0 m
 	dw 100 ; 10.0 kg
 	db "コメント　さくせいちゅう@" ; コメント作成中 (Comment to be written)
+	
