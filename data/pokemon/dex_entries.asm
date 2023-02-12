@@ -160,7 +160,7 @@ PokedexEntryPointers:
 	dw SeakingDexEntry
 	dw KotoraDexEntry
 	dw RaitoraDexEntry
-	dw KukatoraDexEntry
+	dw KakutoraDexEntry
 	dw PuchicornDexEntry
 	dw PonytaDexEntry
 	dw RapidashDexEntry
@@ -191,7 +191,61 @@ PokedexEntryPointers:
 	dw WeepinbellDexEntry
 	dw VictreebelDexEntry
 	dw MissingnoDexEntry
-
+	dw CharcoltDexEntry
+	dw RainerDexEntry
+	dw SapusaurDexEntry
+	dw MewthreeDexEntry
+	dw SpookyDexEntry
+	dw PikabluDexEntry
+	dw PikabudDexEntry
+	dw FlarachuDexEntry
+	dw PearduckDexEntry
+	dw CoronaMewDexEntry
+	dw PsyburDexEntry
+	dw PsybirdDexEntry
+	dw SolareonDexEntry
+	dw DreamasterDexEntry
+	dw OmnimistDexEntry
+	dw ZapmolcunoDexEntry
+	dw LunareonDexEntry
+	dw LocustudDexEntry
+	dw NidogodDexEntry
+	dw NidogodessDexEntry
+	dw RaticlawDexEntry
+	dw BeepinDexEntry
+	dw FlarethDexEntry
+	dw SandswipesDexEntry
+	dw DiamonixDexEntry
+	dw AnthraxDexEntry
+	dw PrimatorDexEntry
+	dw PsykeDexEntry
+	dw DoomsayDexEntry
+	dw DoomsdayDexEntry
+	dw WizwarDexEntry
+	dw MechaMew2DexEntry
+	dw AurabluDexEntry
+	dw TyranticusDexEntry
+	dw BuhiDexEntry
+	dw PapyoDexEntry
+	dw OvipDexEntry
+	dw GodzilanteDexEntry
+	dw GorillaimoDexEntry
+	dw Dragon4DexEntry
+	dw KabiinDexEntry
+	dw RhykuDexEntry
+	dw KasanagiDexEntry
+	dw WronghornDexEntry
+	dw MarinDexEntry
+	dw BarkaneDexEntry
+	dw TurbanDexEntry
+	dw LeafeonDexEntry
+	dw VenustoiseDexEntry
+	dw WolfmanDexEntry
+	dw WarwolfDexEntry
+	dw TangriaDexEntry
+	dw TangrowthDexEntry
+	dw PaonDexEntry
+	dw PibbleDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -1319,11 +1373,11 @@ RaitoraDexEntry:
 	text_far _RaitoraDexEntry
 	text_end
 
-KukatoraDexEntry:
+KakutoraDexEntry:
 	db "replace@"
 	db 1,0
 	dw 90
-	text_far _KukatoraDexEntry
+	text_far _KakutoraDexEntry
 	text_end
 
 PuchicornDexEntry:
@@ -1534,4 +1588,390 @@ MissingnoDexEntry:
 	db 10 ; 1.0 m
 	dw 100 ; 10.0 kg
 	db "コメント　さくせいちゅう@" ; コメント作成中 (Comment to be written)
+	
+CharcoltDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _CharcoltDexEntry
+	text_end
+
+RainerDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _RainerDexEntry
+	text_end
+
+SapusaurDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _SapusaurDexEntry
+	text_end
+
+MewthreeDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _MewthreeDexEntry
+	text_end
+
+SpookyDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _SpookyDexEntry
+	text_end
+
+PikabluDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _PikabluDexEntry
+	text_end
+
+PikabudDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _PikabudDexEntry
+	text_end
+
+FlarachuDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _FlarachuDexEntry
+	text_end
+
+PearduckDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _PearduckDexEntry
+	text_end
+
+CoronaMewDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _CoronaMewDexEntry
+	text_end
+
+PsyburDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _PsyburDexEntry
+	text_end
+
+PsybirdDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _PsybirdDexEntry
+	text_end
+
+SolareonDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _SolareonDexEntry
+	text_end
+
+DreamasterDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _DreamasterDexEntry
+	text_end
+
+OmnimistDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _OmnimistDexEntry
+	text_end
+
+ZapmolcunoDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _ZapmolcunoDexEntry
+	text_end
+
+LunareonDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _LunareonDexEntry
+	text_end
+
+LocustudDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _LocustudDexEntry
+	text_end
+
+NidogodDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _NidogodDexEntry
+	text_end
+
+NidogodessDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _NidogodessDexEntry
+	text_end
+
+RaticlawDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _RaticlawDexEntry
+	text_end
+
+BeepinDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _BeepinDexEntry
+	text_end
+
+FlarethDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _FlarethDexEntry
+	text_end
+
+SandswipesDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _SandswipesDexEntry
+	text_end
+
+DiamonixDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _DiamonixDexEntry
+	text_end
+
+AnthraxDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _AnthraxDexEntry
+	text_end
+
+PrimatorDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _PrimatorDexEntry
+	text_end
+
+PsykeDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _PsykeDexEntry
+	text_end
+
+DoomsayDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _DoomsayDexEntry
+	text_end
+
+DoomsdayDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _DoomsdayDexEntry
+	text_end
+
+WizwarDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _WizwarDexEntry
+	text_end
+
+MechaMew2DexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _MechaMew2DexEntry
+	text_end
+
+AurabluDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _AurabluDexEntry
+	text_end
+
+TyranticusDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _TyranticusDexEntry
+	text_end
+
+BuhiDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _BuhiDexEntry
+	text_end
+
+PapyoDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _PapyoDexEntry
+	text_end
+
+OvipDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _OvipDexEntry
+	text_end
+
+GodzilanteDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _GodzillanteDexEntry
+	text_end
+
+GorillaimoDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _GorillaimoDexEntry
+	text_end
+
+Dragon4DexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _Dragon4DexEntry
+	text_end
+
+KabiinDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _KabiinDexEntry
+	text_end
+
+RhykuDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _RhykuDexEntry
+	text_end
+
+KasanagiDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _KasanagiDexEntry
+	text_end
+
+WronghornDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _WronghornDexEntry
+	text_end
+
+MarinDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _MarinDexEntry
+	text_end
+
+BarkaneDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _BarkaneDexEntry
+	text_end
+
+TurbanDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _TurbanDexEntry
+	text_end
+
+LeafeonDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _LeafeonDexEntry
+	text_end
+
+VenustoiseDexEntry:
+db "replace@"
+	db 1,0
+	dw 90
+	text_far _VenustoiseDexEntry
+	text_end
+	
+WolfmanDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _WolfmanDexEntry
+	text_end
+
+WarwolfDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _WarwolfDexEntry
+	text_end
+
+TangriaDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _TangriaDexEntry
+	text_end
+
+TangrowthDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _TangrowthDexEntry
+	text_end
+
+PaonDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _PaonDexEntry
+	text_end
+
+PibbleDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _PibbleDexEntry
+	text_end
+
 	

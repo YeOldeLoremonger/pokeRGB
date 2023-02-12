@@ -37,4 +37,5 @@ UsableItems_PartyMenu:
 	db ELIXER
 	db MAX_ELIXER
 	db VOID_STONE
+	db MIST_STONE
 	db -1 ; end

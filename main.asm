@@ -171,6 +171,7 @@ SECTION "Battle Engine 6", ROMX
 INCLUDE "engine/battle/move_effects/mist.asm"
 INCLUDE "engine/battle/move_effects/one_hit_ko.asm"
 INCLUDE "engine/battle/move_effects/transform.asm"
+INCLUDE "engine/pokemon/evos_moves.asm"
 
 
 SECTION "Slot Machines", ROMX
@@ -193,7 +194,6 @@ INCLUDE "engine/battle/scroll_draw_trainer_pic.asm"
 INCLUDE "engine/battle/trainer_ai.asm"
 INCLUDE "engine/battle/draw_hud_pokeball_gfx.asm"
 INCLUDE "gfx/trade.asm"
-INCLUDE "engine/pokemon/evos_moves.asm"
 INCLUDE "engine/battle/move_effects/heal.asm"
 INCLUDE "engine/battle/move_effects/reflect_light_screen.asm"
 

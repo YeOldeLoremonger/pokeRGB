@@ -166,7 +166,7 @@ CryData::
 	mon_cry SFX_CRY_16, $10, $FF ; Seaking
 	mon_cry SFX_CRY_00, $00, $00 ; Kotora
 	mon_cry SFX_CRY_00, $00, $00 ; Raitora
-	mon_cry SFX_CRY_00, $00, $00 ; Kukatora
+	mon_cry SFX_CRY_00, $00, $00 ; Kakutora
 	mon_cry SFX_CRY_00, $00, $00 ; Puchicorn
 	mon_cry SFX_CRY_25, $00, $80 ; Ponyta
 	mon_cry SFX_CRY_25, $20, $C0 ; Rapidash
@@ -197,4 +197,59 @@ CryData::
 	mon_cry SFX_CRY_25, $44, $20 ; Weepinbell
 	mon_cry SFX_CRY_25, $66, $CC ; Victreebel
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_00, $00, $00 ; Charcolt
+	mon_cry SFX_CRY_00, $00, $00 ; Rainer
+	mon_cry SFX_CRY_00, $00, $00 ; Sapusaur
+	mon_cry SFX_CRY_00, $00, $00 ; Mewthree
+	mon_cry SFX_CRY_00, $00, $00 ; Spooky 
+	mon_cry SFX_CRY_00, $00, $00 ; Pikablu
+	mon_cry SFX_CRY_00, $00, $00 ; Pikabud
+	mon_cry SFX_CRY_00, $00, $00 ; Flarachu
+	mon_cry SFX_CRY_00, $00, $00 ; Pearduck
+	mon_cry SFX_CRY_00, $00, $00 ; CoronaMew
+	mon_cry SFX_CRY_00, $00, $00 ; Psybur
+	mon_cry SFX_CRY_00, $00, $00 ; Psybird
+	mon_cry SFX_CRY_00, $00, $00 ; Solareon
+	mon_cry SFX_CRY_00, $00, $00 ; Dreamaster
+	mon_cry SFX_CRY_00, $00, $00 ; Omnimist
+	mon_cry SFX_CRY_00, $00, $00 ; Zapmolcuno
+	mon_cry SFX_CRY_00, $00, $00 ; Lunareon
+	mon_cry SFX_CRY_00, $00, $00 ; Locustud
+	mon_cry SFX_CRY_00, $00, $00 ; Nidogod
+	mon_cry SFX_CRY_00, $00, $00 ; Nidogodess
+	mon_cry SFX_CRY_00, $00, $00 ; Raticlaw
+	mon_cry SFX_CRY_00, $00, $00 ; Beepin
+	mon_cry SFX_CRY_00, $00, $00 ; Flareth
+	mon_cry SFX_CRY_00, $00, $00 ; Sandswipes
+	mon_cry SFX_CRY_00, $00, $00 ; Diamonix
+	mon_cry SFX_CRY_00, $00, $00 ; Anthrax
+	mon_cry SFX_CRY_00, $00, $00 ; Primator
+	mon_cry SFX_CRY_00, $00, $00 ; Psyke
+	mon_cry SFX_CRY_00, $00, $00 ; Doomsay
+	mon_cry SFX_CRY_00, $00, $00 ; Doomsday
+	mon_cry SFX_CRY_00, $00, $00 ; Wizwar
+	mon_cry SFX_CRY_00, $00, $00 ; MechaMew2
+	mon_cry SFX_CRY_00, $00, $00 ; Aurablu
+	mon_cry SFX_CRY_00, $00, $00 ; Tyranticus
+	mon_cry SFX_CRY_00, $00, $00 ; Buhi
+	mon_cry SFX_CRY_00, $00, $00 ; Papyo
+	mon_cry SFX_CRY_00, $00, $00 ; Ovip
+	mon_cry SFX_CRY_00, $00, $00 ; Godzilante
+	mon_cry SFX_CRY_00, $00, $00 ; Gorillaimo
+	mon_cry SFX_CRY_00, $00, $00 ; Dragon4
+	mon_cry SFX_CRY_00, $00, $00 ; Kabiin
+	mon_cry SFX_CRY_00, $00, $00 ; Rhyku
+	mon_cry SFX_CRY_00, $00, $00 ; Kasanagi
+	mon_cry SFX_CRY_00, $00, $00 ; Wronghorn
+	mon_cry SFX_CRY_00, $00, $00 ; Marin
+	mon_cry SFX_CRY_00, $00, $00 ; Barkane
+	mon_cry SFX_CRY_00, $00, $00 ; Turban
+	mon_cry SFX_CRY_00, $00, $00 ; Leafeon
+	mon_cry SFX_CRY_00, $00, $00 ; VenusToise
+	mon_cry SFX_CRY_00, $00, $00 ; Wolfman
+	mon_cry SFX_CRY_00, $00, $00 ; Warwolf
+	mon_cry SFX_CRY_00, $00, $00 ; Tangria
+	mon_cry SFX_CRY_00, $00, $00 ; Tangrowth
+	mon_cry SFX_CRY_00, $00, $00 ; Paon
+	mon_cry SFX_CRY_00, $00, $00 ; Pibble
 	assert_table_length NUM_POKEMON_INDEXES

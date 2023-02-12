@@ -198,6 +198,61 @@
 	const WEEPINBELL         ; $BD
 	const VICTREEBEL         ; $BE
 	const MISSINGNO          ; $BF 
+	const CHARCOLT			 ; $C0
+	const RAINER			 ; $C1
+	const SAPUSAUR			 ; $C2
+	const MEWTHREE			 ; $C3
+	const SPOOKY 			 ; $C4
+	const PIKABLU			 ; $C5
+	const PIKABUD			 ; $C6
+	const FLARACHU			 ; $C7
+	const PEARDUCK			 ; $C8
+	const CORONAMEW			 ; $C9
+	const PSYBUR			 ; $CA
+	const PSYBIRD			 ; $CB
+	const SOLAREON			 ; $CC
+	const DREAMASTER		 ; $CD
+	const OMNIMIST			 ; $CE
+	const ZAPMOLCUNO		 ; $CF
+	const LUNAREON	 		 ; $D0
+	const LOCUSTUD			 ; $D1
+	const NIDOGOD			 ; $D2
+	const NIDOGODESS		 ; $D3
+	const RATICLAW			 ; $D4
+	const BEEPIN			 ; $D5
+	const FLARETH			 ; $D6
+	const SANDSWIPES		 ; $D7
+	const DIAMONIX			 ; $D8
+	const ANTHRAX			 ; $D9
+	const PRIMATOR			 ; $DA
+	const PSYKE			     ; $DB
+	const DOOMSAY			 ; $DC
+	const DOOMSDAY			 ; $DD
+	const WIZWAR			 ; $DE
+	const MECHAMEW2			 ; $DF
+	const AURABLU			 ; $E0
+	const TYRANTICUS		 ; $E1
+	const BUHI				 ; $E2
+	const PAPYO				 ; $E3
+	const OVIP				 ; $E4
+	const GODZILANTE		 ; $E5
+	const GORILLAIMO		 ; $E6
+	const DRAGON4			 ; $E7
+	const KABIIN			 ; $E8
+	const RHYKU				 ; $E9
+	const KASANAGI			 ; $EA
+	const WRONGHORN			 ; $EB
+	const MARIN				 ; $EC
+	const BARKANE			 ; $ED
+	const TURBAN			 ; $EE
+	const LEAFEON			 ; $EF
+	const VENUSTOISE		 ; $F0
+	const WOLFMAN			 ; $F1
+	const WARWOLF			 ; $F2
+	const TANGRIA		  	 ; $F3
+	const TANGROWTH			 ; $F4
+	const PAON				 ; $F5
+	const PIBBLE			 ; $F6
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 
 ; starters

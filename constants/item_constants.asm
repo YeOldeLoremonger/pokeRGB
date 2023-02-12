@@ -110,6 +110,7 @@ DEF NUM_ITEMS EQU const_value - 1
 	const FLOOR_11F     ; $60
 	const FLOOR_B4F     ; $61
 	const VOID_STONE    ; $62
+	const MIST_STONE	; $63
 DEF NUM_FLOORS EQU const_value - 1 - NUM_ITEMS
 
 	const_next $C4

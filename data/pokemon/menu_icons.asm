@@ -53,8 +53,8 @@ MonPartyData:
 	nybble ICON_MON       ; Dugtrio
 	nybble ICON_MON       ; Meowth
 	nybble ICON_MON       ; Persian
-	nybble ICON_MON       ; Psyduck
-	nybble ICON_MON       ; Golduck
+	nybble ICON_BIRD      ; Psyduck
+	nybble ICON_BIRD      ; Golduck
 	nybble ICON_MON       ; Mankey
 	nybble ICON_MON       ; Primeape
 	nybble ICON_QUADRUPED ; Growlithe
@@ -91,9 +91,9 @@ MonPartyData:
 	nybble ICON_MON       ; Muk
 	nybble ICON_HELIX     ; Shellder
 	nybble ICON_HELIX     ; Cloyster
-	nybble ICON_MON       ; Gastly
+	nybble ICON_HELIX     ; Gastly
 	nybble ICON_MON       ; Haunter
-	nybble ICON_MON       ; Gengar
+	nybble ICON_FAIRY     ; Gengar
 	nybble ICON_SNAKE     ; Onix
 	nybble ICON_MON       ; Drowzee
 	nybble ICON_MON       ; Hypno
@@ -184,12 +184,66 @@ MonPartyData:
 	nybble ICON_WATER	  ; Coiting
 	nybble ICON_MON		  ; Kotora
 	nybble ICON_MON		  ; Raitora
-	nybble ICON_MON		  ; Kukatora
+	nybble ICON_MON		  ; Kakutora
 	nybble ICON_QUADRUPED ; Puchicorn
 	nybble ICON_WATER	  ; Terraping
 	nybble ICON_SNAKE	  ; Molm
 	nybble ICON_HELIX	  ; Yureitops
 	nybble ICON_BIRD	  ; Marodactyl
 	nybble ICON_MON		  ; Apparrish
-	
+	nybble ICON_MON		  ; Charcolt
+	nybble ICON_WATER	  ; Rainer
+	nybble ICON_GRASS	  ; Sapusaur
+	nybble ICON_MON		  ; Mewthree
+	nybble ICON_MON		  ; Spooky 
+	nybble ICON_FAIRY	  ; Pikablu
+	nybble ICON_FAIRY	  ; Pikabud
+	nybble ICON_FAIRY	  ; Flarachu
+	nybble ICON_BIRD	  ; Pearduck
+	nybble ICON_MON		  ; CoronaMew
+	nybble ICON_MON		  ; Psybur
+	nybble ICON_BIRD	  ; Psybird
+	nybble ICON_QUADRUPED ; Solareon
+	nybble ICON_MON		  ; Dreamaster
+	nybble ICON_HELIX	  ; Omnimist
+	nybble ICON_BIRD	  ; Zapmolcuno
+	nybble ICON_QUADRUPED ; Lunareon
+	nybble ICON_BUG		  ; Locustud
+	nybble ICON_MON		  ; Nidogod
+	nybble ICON_MON		  ; Nidogodess
+	nybble ICON_MON		  ; Raticlaw
+	nybble ICON_BUG		  ; Beepin
+	nybble ICON_QUADRUPED ; Flareth
+	nybble ICON_MON		  ; Sandswipes
+	nybble ICON_SNAKE	  ; Diamonix
+	nybble ICON_MON		  ; Anthrax
+	nybble ICON_MON		  ; Primator
+	nybble ICON_MON		  ; Psyke
+	nybble ICON_BALL	  ; Doomsay
+	nybble ICON_BALL	  ; Doomsday
+	nybble ICON_FAIRY	  ; Wizwar
+	nybble ICON_MON		  ; MechaMew2
+	nybble ICON_WATER	  ; Aurablu
+	nybble ICON_MON		  ; Tyranticus
+	nybble ICON_BUG		  ; Buhi
+	nybble ICON_BALL	  ; Papyo
+	nybble ICON_BALL	  ; Ovip
+	nybble ICON_MON		  ; Godzilante
+	nybble ICON_MON		  ; Gorillaimo
+	nybble ICON_QUADRUPED ; Dragon4
+	nybble ICON_BALL 	  ; Kabiin
+	nybble ICON_MON		  ; Rhyku
+	nybble ICON_BUG		  ; Kasanagi
+	nybble ICON_BUG		  ; Wronghorn
+	nybble ICON_WATER	  ; Marin
+	nybble ICON_QUADRUPED ; Barkane
+	nybble ICON_HELIX	  ; Turban
+	nybble ICON_QUADRUPED ; Leafeon
+	nybble ICON_MON 	  ; VenusToise
+	nybble ICON_FAIRY	  ; Wolfman
+	nybble ICON_FAIRY	  ; Warwolf
+	nybble ICON_GRASS	  ; Tangria
+	nybble ICON_GRASS	  ; Tangrowth
+	nybble ICON_QUADRUPED ; Paon
+	nybble ICON_QUADRUPED ; Pibble
 	end_nybble_array NUM_POKEMON

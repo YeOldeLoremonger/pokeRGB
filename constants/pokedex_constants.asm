@@ -187,12 +187,67 @@
 	const DEX_GUARDIA	 ; 181
 	const DEX_COITING	 ; 182
 	const DEX_KOTORA	 ; 183
-	const DEX_RAITORA	    	 ; 184
+	const DEX_RAITORA	        ; 184
 	const DEX_KAKUTORA		    ; 185
 	const DEX_PUCHICORN		    ; 186
 	const DEX_TERRAPING	 	    ; 187
 	const DEX_MOLM			    ; 188
 	const DEX_FOSSIL_KABUTOPS   ; 189
 	const DEX_FOSSIL_AERODACTYL ; 190
-	const DEX_MON_GHOST				; 191
+	const DEX_MON_GHOST			; 191
+	const DEX_CHARCOLT	 ; 192
+	const DEX_RAINER	 ; 193
+	const DEX_SAPUSAUR	 ; 194
+	const DEX_MEWTHREE	 ; 195
+	const DEX_SPOOKY 	 ; 196
+	const DEX_PIKABLU 	 ; 197
+	const DEX_PIKABUD	 ; 198
+	const DEX_FLARACHU	 ; 199
+	const DEX_PEARDUCK	 ; 200
+	const DEX_CORONAMEW  ; 201
+	const DEX_PSYBUR	 ; 202
+	const DEX_PSYBIRD	 ; 203
+	const DEX_SOLAREON	 ; 204
+	const DEX_DREAMASTER ; 205
+	const DEX_OMNIMIST	 ; 206
+	const DEX_ZAPMOLCUNO ; 207
+	const DEX_LUNAREON	 ; 208
+	const DEX_LOCUSTUD	 ; 209
+	const DEX_NIDOGOD	 ; 210
+	const DEX_NIDOGODESS ; 211
+	const DEX_RATICLAW	 ; 212
+	const DEX_BEEPIN	 ; 213
+	const DEX_FLARETH	 ; 214
+	const DEX_SANDSWIPES ; 215
+	const DEX_DIAMONIX	 ; 216
+	const DEX_ANTHRAX	 ; 217
+	const DEX_PRIMATOR	 ; 218
+	const DEX_PSYKE		 ; 219
+	const DEX_DOOMSAY	 ; 220
+	const DEX_DOOMSDAY	 ; 221
+	const DEX_WIZWAR	 ; 222
+	const DEX_MECHAMEW2	 ; 223
+	const DEX_AURABLU	 ; 224
+	const DEX_TYRANTICUS ; 225
+	const DEX_BUHI		 ; 226
+	const DEX_PAPYO		 ; 227
+	const DEX_OVIP		 ; 228
+	const DEX_GODZILANTE ; 229
+	const DEX_GORILLAIMO ; 230
+	const DEX_DRAGON4	 ; 231
+	const DEX_KABIIN	 ; 232
+	const DEX_RHYKU		 ; 233
+	const DEX_KASANAGI   ; 234
+	const DEX_WRONGHORN  ; 235
+	const DEX_MARIN	 	 ; 236
+	const DEX_BARKANE	 ; 237
+	const DEX_TURBAN	 ; 238
+	const DEX_LEAFEON	 ; 239
+	const DEX_VENUSTOISE ; 240
+	const DEX_WOLFMAN	 ; 241
+	const DEX_WARWOLF	 ; 242
+	const DEX_TANGRIA	 ; 243
+	const DEX_TANGROWTH  ; 244
+	const DEX_PAON       ; 245
+	const DEX_PIBBLE     ; 246
 DEF NUM_POKEMON EQU const_value - 1
