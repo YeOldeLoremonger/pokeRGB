@@ -18,14 +18,6 @@ UncompressMonSprite::
 ; $99 ≤ index:             bank $D ("Pics 5")
 	ld a, [wcf91]
 	ld b, a
-	cp MEW
-	ld a, BANK(MewPicFront)
-	jr z, .GotBank
-	ld a, b
-	cp FOSSIL_KABUTOPS
-	ld a, BANK(FossilKabutopsPic)
-	jr z, .GotBank
-	ld a, b
 	cp MEW + 1
 	ld a, BANK("Pics 1")
 	jr c, .GotBank
@@ -41,7 +33,23 @@ UncompressMonSprite::
 	cp STARMIE + 1
 	ld a, BANK("Pics 4")
 	jr c, .GotBank
+	ld a, b
+	cp VICTREEBEL + 1
 	ld a, BANK("Pics 5")
+	jr c, .GotBank
+	ld a, b
+	cp KONYA + 1
+	ld a, BANK("Pics 6")
+	jr c, .GotBank
+	ld a, b
+	cp OMNIMIST + 1
+	ld a, BANK("Pics 8")
+	jr c, .GotBank
+	ld a, b
+	cp KABIIN + 1
+	ld a, BANK("Pics 9")
+	jr c, .GotBank
+	ld a, BANK("Pics 10")
 .GotBank
 	jp UncompressSpriteData
 

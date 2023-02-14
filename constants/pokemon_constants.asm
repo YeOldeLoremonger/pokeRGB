@@ -249,10 +249,11 @@
 	const VENUSTOISE		 ; $F0
 	const WOLFMAN			 ; $F1
 	const WARWOLF			 ; $F2
-	const TANGRIA		  	 ; $F3
-	const TANGROWTH			 ; $F4
-	const PAON				 ; $F5
-	const PIBBLE			 ; $F6
+	const PAON				 ; $F3
+	const PIBBLE			 ; $F4
+	const YOSHI				 ; $F5
+	const LUIGI				 ; $F6
+	const CRAINBOW			 ; $F7
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 
 ; starters
@@ -261,4 +262,4 @@ DEF STARTER2 EQU SQUIRTLE
 DEF STARTER3 EQU BULBASAUR
 
 ; ghost Marowak in Pokémon Tower
-DEF RESTLESS_SOUL EQU MAROWAK
+DEF RESTLESS_SOUL EQU GUARDIA

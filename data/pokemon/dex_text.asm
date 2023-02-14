@@ -2417,27 +2417,7 @@ _WarwolfDexEntry::
 	next " "
 	next " "
 	dex 
-		
-_TangriaDexEntry::
-	text " "
-	next " "
-	next " "
-	
-	page " "
-	next " "
-	next " "
-	dex 
-		
-_TangrowthDexEntry::
-	text " "
-	next " "
-	next " "
-	
-	page " "
-	next " "
-	next " "
-	dex 
-		
+			
 _PaonDexEntry::
 	text " "
 	next " "
@@ -2457,3 +2437,34 @@ _PibbleDexEntry::
 	next " "
 	next " "
 	dex 
+		
+_YoshiDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_LuigiDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+		
+_CrainbowDexEntry::
+	text " "
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next " "
+	dex 
+	
