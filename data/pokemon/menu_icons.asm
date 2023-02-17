@@ -151,5 +151,4 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Dragonite
 	nybble ICON_MON       ; Mewtwo
 	nybble ICON_MON       ; Mew
-	nybble ICON_HELIX     ; MissingNo
 	end_nybble_array NUM_POKEMON

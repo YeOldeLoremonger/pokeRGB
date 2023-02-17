@@ -1507,13 +1507,3 @@ _VictreebelDexEntry::
 	next "has ever returned"
 	next "from there"
 	dex
-
-_MissingnoDexEntry::
-	text " "
-	next " "
-	next " "
-	
-	page " "
-	next " "
-	next " "
-	dex 

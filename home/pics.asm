@@ -26,7 +26,7 @@ UncompressMonSprite::
 	ld a, BANK(FossilKabutopsPic)
 	jr z, .GotBank
 	ld a, b
-	cp MEW + 1
+	cp TANGELA + 1
 	ld a, BANK("Pics 1")
 	jr c, .GotBank
 	ld a, b

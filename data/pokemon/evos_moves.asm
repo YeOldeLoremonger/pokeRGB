@@ -33,7 +33,7 @@ EvosMovesPointerTable:
 	dw BlastoiseEvosMoves
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
-	dw MissingNoEvosMoves
+	dw MissingNo1FEvosMoves
 	dw MissingNo20EvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
@@ -211,7 +211,7 @@ KangaskhanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, BITE
+	db 26, BITE
 	db 31, TAIL_WHIP
 	db 36, MEGA_PUNCH
 	db 41, LEER
@@ -380,14 +380,14 @@ NidoqueenEvosMoves:
 
 CuboneEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 18, MAROWAK
+	db EV_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset
-	db  5, LEER
-	db  9, FOCUS_ENERGY
-	db 13, THRASH
-	db 17, BONEMERANG
-	db 30, RAGE
+	db 25, LEER
+	db 31, FOCUS_ENERGY
+	db 38, THRASH
+	db 43, BONEMERANG
+	db 46, RAGE
 	db 0
 
 RhyhornEvosMoves:
@@ -540,7 +540,7 @@ TangelaEvosMoves:
 	db 49, GROWTH
 	db 0
 
-MissingNoEvosMoves:
+MissingNo1FEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -897,7 +897,7 @@ FarfetchdEvosMoves:
 
 VenonatEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 31, BUTTERFREE
+	db EV_LEVEL, 31, VENOMOTH
 	db 0
 ; Learnset
 	db 24, POISONPOWDER
@@ -1436,12 +1436,12 @@ VenomothEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 11, POISONPOWDER
-	db 12, LEECH_LIFE
-	db 13, STUN_SPORE
-	db 20, PSYBEAM
-	db 30, SLEEP_POWDER
-	db 40, PSYCHIC_M
+	db 24, POISONPOWDER
+	db 27, LEECH_LIFE
+	db 30, STUN_SPORE
+	db 38, PSYBEAM
+	db 43, SLEEP_POWDER
+	db 50, PSYCHIC_M
 	db 0
 
 DewgongEvosMoves:
@@ -1476,7 +1476,7 @@ CaterpieEvosMoves:
 
 MetapodEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 10, VENOMOTH
+	db EV_LEVEL, 10, BUTTERFREE
 	db 0
 ; Learnset
 	db 0
@@ -1485,11 +1485,13 @@ ButterfreeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 31, CONFUSION
-	db 32, SLEEP_POWDER
-	db 37, SUPERSONIC
-	db 41, WHIRLWIND
-	db 42, PSYBEAM
+	db 12, CONFUSION
+	db 15, POISONPOWDER
+	db 16, STUN_SPORE
+	db 17, SLEEP_POWDER
+	db 21, SUPERSONIC
+	db 26, WHIRLWIND
+	db 32, PSYBEAM
 	db 0
 
 MachampEvosMoves:
@@ -1667,11 +1669,9 @@ PersianEvosMoves:
 
 MarowakEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 26, KANGASKHAN
 	db 0
 ; Learnset
 	db 25, LEER
-	db 27, MEGA_PUNCH
 	db 33, FOCUS_ENERGY
 	db 41, THRASH
 	db 48, BONEMERANG

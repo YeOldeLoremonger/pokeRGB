@@ -1,5 +1,6 @@
 MonsterPalettes:
 	table_width 1, MonsterPalettes
+	db PAL_MEWMON    ; MISSINGNO
 	db PAL_GREENMON  ; BULBASAUR
 	db PAL_GREENMON  ; IVYSAUR
 	db PAL_GREENMON  ; VENUSAUR
@@ -151,5 +152,4 @@ MonsterPalettes:
 	db PAL_BROWNMON  ; DRAGONITE
 	db PAL_MEWMON    ; MEWTWO
 	db PAL_MEWMON    ; MEW
-	db PAL_MEWMON    ; MISSINGNO
-	assert_table_length NUM_POKEMON
+	assert_table_length NUM_POKEMON + 1

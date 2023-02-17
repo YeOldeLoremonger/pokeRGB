@@ -59,6 +59,7 @@ PinsirPicBack::       INCBIN "gfx/pokemon/back/pinsirb.pic"
 TangelaPicFront::     INCBIN "gfx/pokemon/front/tangela.pic"
 TangelaPicBack::      INCBIN "gfx/pokemon/back/tangelab.pic"
 
+
 SECTION "Pics 2", ROMX
 
 GrowlithePicFront::   INCBIN "gfx/pokemon/front/growlithe.pic"
@@ -323,13 +324,8 @@ WeepinbellPicBack::    INCBIN "gfx/pokemon/back/weepinbellb.pic"
 VictreebelPicFront::   INCBIN "gfx/pokemon/front/victreebel.pic"
 VictreebelPicBack::    INCBIN "gfx/pokemon/back/victreebelb.pic"
 
+
 SECTION "Pics 6", ROMX
-
-MissingnoPicFront::    INCBIN "gfx/pokemon/front/Missingno.pic"
-MissingnoPicBack::	   INCBIN "gfx/pokemon/back/Missingnob.pic"
-
-
-SECTION "Pics 7", ROMX
 
 YoungsterPic::     INCBIN "gfx/trainers/youngster.pic"
 BugCatcherPic::    INCBIN "gfx/trainers/bugcatcher.pic"
