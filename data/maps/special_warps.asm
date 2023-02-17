@@ -90,4 +90,4 @@ FlyWarpDataPtr:
 .SaffronCity:    fly_warp SAFFRON_CITY,     9, 30
 .Route4:         fly_warp ROUTE_4,         11,  6
 .Route10:        fly_warp ROUTE_10,        11, 20
-.BrickCity		 fly_warp BRICK_CITY,      30, 30
+.BrickCity		 fly_warp BRICK_CITY,      47, 48

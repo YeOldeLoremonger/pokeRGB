@@ -46,4 +46,5 @@ TownMapOrder:
 	db VICTORY_ROAD_3F
 	db INDIGO_PLATEAU
 	db POWER_PLANT
+	db BRICK_CITY
 TownMapOrderEnd:
