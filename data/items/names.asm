@@ -99,5 +99,4 @@ ItemNames::
 	li "11F"
 	li "B4F"
 	li "VOID STONE"
-	li "MIST STONE"
 	assert_list_length NUM_ITEMS + NUM_FLOORS

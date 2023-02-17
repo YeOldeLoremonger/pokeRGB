@@ -115,7 +115,6 @@ ItemUsePtrTable:
     dw UnusableItem      ; FLOOR_11F
     dw UnusableItem      ; FLOOR_B4F
     dw ItemUseEvoStone   ; VOID_STONE
-	dw ItemUseEvoStone	 ; MIST_STONE
 ItemUseBall:
 
 ; Balls can't be used out of battle.
