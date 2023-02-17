@@ -242,11 +242,10 @@ PokedexEntryPointers:
 	dw VenustoiseDexEntry
 	dw WolfmanDexEntry
 	dw WarwolfDexEntry
+	dw TangriaDexEntry
+	dw TangrowthDexEntry
 	dw PaonDexEntry
 	dw PibbleDexEntry
-	dw YoshiDexEntry
-	dw LuigiDexEntry
-	dw CrainbowDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -1947,6 +1946,20 @@ WarwolfDexEntry:
 	text_far _WarwolfDexEntry
 	text_end
 
+TangriaDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _TangriaDexEntry
+	text_end
+
+TangrowthDexEntry:
+	db "replace@"
+	db 1,0
+	dw 90
+	text_far _TangrowthDexEntry
+	text_end
+
 PaonDexEntry:
 	db "replace@"
 	db 1,0
@@ -1961,23 +1974,4 @@ PibbleDexEntry:
 	text_far _PibbleDexEntry
 	text_end
 
-YoshiDexEntry:
-	db "replace@"
-	db 1,0
-	dw 90
-	text_far _YoshiDexEntry
-	text_end
-
-LuigiDexEntry:
-	db "replace@"
-	db 1,0
-	dw 90
-	text_far _LuigiDexEntry
-	text_end
-
-CrainbowDexEntry:
-	db "replace@"
-	db 1,0
-	dw 90
-	text_far _CrainbowDexEntry
-	text_end
+	

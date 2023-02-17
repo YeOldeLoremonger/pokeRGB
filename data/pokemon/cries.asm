@@ -248,9 +248,8 @@ CryData::
 	mon_cry SFX_CRY_00, $00, $00 ; VenusToise
 	mon_cry SFX_CRY_00, $00, $00 ; Wolfman
 	mon_cry SFX_CRY_00, $00, $00 ; Warwolf
+	mon_cry SFX_CRY_00, $00, $00 ; Tangria
+	mon_cry SFX_CRY_00, $00, $00 ; Tangrowth
 	mon_cry SFX_CRY_00, $00, $00 ; Paon
 	mon_cry SFX_CRY_00, $00, $00 ; Pibble
-	mon_cry SFX_CRY_00, $00, $00 ; Yoshi
-	mon_cry SFX_CRY_00, $00, $00 ; Luigi
-	mon_cry SFX_CRY_00, $00, $00 ; Crainbow
 	assert_table_length NUM_POKEMON_INDEXES

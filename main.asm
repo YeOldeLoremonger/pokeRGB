@@ -2,6 +2,7 @@ SECTION "bank1", ROMX
 
 INCLUDE "data/sprites/facings.asm"
 INCLUDE "engine/events/black_out.asm"
+INCLUDE "data/pokemon/mew.asm"
 INCLUDE "engine/battle/safari_zone.asm"
 INCLUDE "engine/movie/title.asm"
 INCLUDE "engine/pokemon/load_mon_data.asm"
@@ -206,12 +207,10 @@ INCLUDE "engine/battle/effects.asm"
 SECTION "bank10", ROMX
 
 INCLUDE "engine/menus/pokedex.asm"
-INCLUDE "engine/movie/intro.asm"
-
-SECTION "Trade", ROMX
-
 INCLUDE "engine/movie/trade.asm"
+INCLUDE "engine/movie/intro.asm"
 INCLUDE "engine/movie/trade2.asm"
+
 
 SECTION "Pokédex Rating", ROMX
 

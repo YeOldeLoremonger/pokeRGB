@@ -246,9 +246,8 @@
 	const DEX_VENUSTOISE ; 240
 	const DEX_WOLFMAN	 ; 241
 	const DEX_WARWOLF	 ; 242
-	const DEX_PAON       ; 243
-	const DEX_PIBBLE     ; 244
-	const DEX_YOSHI		 ; 245
-	const DEX_LUIGI		 ; 246
-	const DEX_CRAINBOW	 ; 247
+	const DEX_TANGRIA	 ; 243
+	const DEX_TANGROWTH  ; 244
+	const DEX_PAON       ; 245
+	const DEX_PIBBLE     ; 246
 DEF NUM_POKEMON EQU const_value - 1

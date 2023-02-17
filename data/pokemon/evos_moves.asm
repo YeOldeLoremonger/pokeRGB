@@ -245,11 +245,10 @@ EvosMovesPointerTable:
 	dw VenustoiseEvosMoves
 	dw WolfmanEvosMoves
 	dw WarwolfEvosMoves
+	dw TangriaEvosMoves
+	dw TangrowthEvosMoves
 	dw PaonEvosMoves
 	dw PibbleEvosMoves
-	dw YoshiEvosMoves
-	dw LuigiEvosMoves
-	dw CrainbowEvosMoves
 	assert_table_length NUM_POKEMON_INDEXES
 
 RhydonEvosMoves:
@@ -593,6 +592,7 @@ PinsirEvosMoves:
 
 TangelaEvosMoves:
 ; Evolutions
+	db EV_ITEM, LEAF_STONE, 1, TANGROWTH
 	db 0
 ; Learnset
 	db 29, ABSORB
@@ -2571,8 +2571,21 @@ WarwolfEvosMoves:
 	db EV_LEVEL, 46, YOKAICE
 	db 0
 ; Learnset
-	db 0	
-
+	db 0
+	
+TangriaEvosMoves:
+; Evolutions
+	db EV_LEVEL, 16, TANGELA
+	db 0
+; Learnset
+	db 0
+	
+TangrowthEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 0
+	
 PaonEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 26, GAJAPHANT
@@ -2581,24 +2594,6 @@ PaonEvosMoves:
 	db 0
 	
 PibbleEvosMoves:
-; Evolutions
-	db 0
-; Learnset
-	db 0
-	
-YoshiEvosMoves:
-; Evolutions
-	db 0
-; Learnset
-	db 0
-	
-LuigiEvosMoves:
-; Evolutions
-	db 0
-; Learnset
-	db 0
-	
-CrainbowEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset

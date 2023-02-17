@@ -242,9 +242,8 @@ MonPartyData:
 	nybble ICON_MON 	  ; VenusToise
 	nybble ICON_FAIRY	  ; Wolfman
 	nybble ICON_FAIRY	  ; Warwolf
+	nybble ICON_GRASS	  ; Tangria
+	nybble ICON_GRASS	  ; Tangrowth
 	nybble ICON_QUADRUPED ; Paon
 	nybble ICON_QUADRUPED ; Pibble
-	nybble ICON_MON 	  ; Yoshi
-	nybble ICON_MON 	  ; Luigi
-	nybble ICON_BIRD	  ; Crainbow
 	end_nybble_array NUM_POKEMON

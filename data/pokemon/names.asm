@@ -242,9 +242,8 @@ MonsterNames::
 	db "VENUSTOISE"
 	db "WOLFMAN@@@"
 	db "WARWOLF@@@"
+	db "TANGRIA@@@"
+	db "TANGROWTH@"
 	db "PAON@@@@@@"
 	db "PIBBLE@@@@"
-	db "YOSHI@@@@@"
-	db "LUIGI@@@@@"
-	db "CRAINBOW@@"
 	assert_table_length NUM_POKEMON_INDEXES

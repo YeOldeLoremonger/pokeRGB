@@ -81,6 +81,7 @@ ROMX $C
 	"Pics 4"
 ROMX $D
 	"Pics 5"
+	"Slot Machines"
 ROMX $E
 	"Battle Engine 7"
 ROMX $F
@@ -176,16 +177,7 @@ ROMX $2B
 ROMX $2C
 	"Move Names"
 ROMX $2D
-	"Slot Machines"
 	"Battle Engine 6"
-ROMX $2E
-	"Pics 7"
-ROMX $2F
-	"Pics 8"
-ROMX $30
-	"Pics 9"
-ROMX $31
-	"Pics 10"
 WRAM0
 	"Audio RAM"
 	org $c100
