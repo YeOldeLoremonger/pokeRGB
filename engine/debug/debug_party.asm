@@ -140,8 +140,6 @@ DebugSetPokedexEntries:
 
 DebugItemsList:
 	db BICYCLE, 1
-	db SURFBOARD, 1
-	db POKE_FLUTE, 1
 	db FULL_RESTORE, 99
 	db FULL_HEAL, 99
 	db ESCAPE_ROPE, 99
