@@ -234,6 +234,7 @@ NidoranMEvosMoves:
 ClefairyEvosMoves:
 ; Evolutions
 	db EV_ITEM, MOON_STONE, 1, CLEFABLE
+	db EV_ITEM, MIST_STONE, 1, GENGAR
 	db 0
 ; Learnset
 	db 13, SING
@@ -445,6 +446,7 @@ GyaradosEvosMoves:
 ShellderEvosMoves:
 ; Evolutions
 	db EV_ITEM, WATER_STONE, 1, CLOYSTER
+	db EV_ITEM, MIST_STONE, 1, GASTLY
 	db 0
 ; Learnset
 	db 18, SUPERSONIC
@@ -471,7 +473,6 @@ TentacoolEvosMoves:
 
 GastlyEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 25, HAUNTER
 	db 0
 ; Learnset
 	db 27, HYPNOSIS
