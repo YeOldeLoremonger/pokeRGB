@@ -236,5 +236,6 @@ DEF SHOW EQU $15
 	const HS_SEAFOAM_ISLANDS_B3F_BOULDER_4 ; E0
 	const HS_SEAFOAM_ISLANDS_B4F_BOULDER_1 ; E1
 	const HS_SEAFOAM_ISLANDS_B4F_BOULDER_2 ; E2
-	const HS_ARTICUNO                      ; E3 X
+	const HS_ARTICUNO         			   ; E3 X
+	const HS_BRICK_SNORLAX				   ; E4 
 DEF NUM_HS_OBJECTS EQU const_value

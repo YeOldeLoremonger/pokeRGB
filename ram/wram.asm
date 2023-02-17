@@ -2039,7 +2039,7 @@ wSeafoamIslandsB3FCurScript:: db
 wRoute23CurScript:: db
 wSeafoamIslandsB4FCurScript:: db
 wRoute18Gate1FCurScript:: db
-	ds 78
+wBrickCityCurScript:: db
 wGameProgressFlagsEnd::
 
 	ds 56
