@@ -98,4 +98,6 @@ ItemPrices::
 	bcd3 0     ; FLOOR_10F
 	bcd3 0     ; FLOOR_11F
 	bcd3 0     ; FLOOR_B4F
+	bcd3 0	   ; WING_FOSSIL
+	bcd3 0	   ; SHELL_FOSSIL
 	assert_table_length NUM_ITEMS + NUM_FLOORS

@@ -100,6 +100,8 @@ ItemUsePtrTable:
 	dw ItemUsePPRestore  ; MAX_ETHER
 	dw ItemUsePPRestore  ; ELIXER
 	dw ItemUsePPRestore  ; MAX_ELIXER
+	dw UnusableItem		 ; WING_FOSSIL
+	dw UnusableItem		 ; SHELL_FOSSIL
 
 ItemUseBall:
 

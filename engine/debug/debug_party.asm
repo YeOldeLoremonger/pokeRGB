@@ -151,7 +151,9 @@ DebugItemsList:
 	db CARD_KEY, 1
 	db S_S_TICKET, 1
 	db LIFT_KEY, 1
-	db POKE_FLUTE, 1
+	db OLD_AMBER, 1
+	db WING_FOSSIL, 1
+	db SHELL_FOSSIL, 1
 	db -1 ; end
 
 DebugUnusedList:

@@ -52,7 +52,7 @@ DEF SAFARI_ROCK EQU $16 ; overload
 	const DOME_FOSSIL   ; $29
 	const HELIX_FOSSIL  ; $2A
 	const SECRET_KEY    ; $2B
-	const MIST_STONE    ; $2C "?????"
+	const MIST_STONE    ; $2C 
 	const BIKE_VOUCHER  ; $2D
 	const X_ACCURACY    ; $2E
 	const LEAF_STONE    ; $2F
@@ -109,6 +109,8 @@ DEF NUM_ITEMS EQU const_value - 1
 	const FLOOR_10F     ; $5F
 	const FLOOR_11F     ; $60
 	const FLOOR_B4F     ; $61
+	const WING_FOSSIL	; $62
+	const SHELL_FOSSIL	; $63
 DEF NUM_FLOORS EQU const_value - 1 - NUM_ITEMS
 
 	const_next $C4
