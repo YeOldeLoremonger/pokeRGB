@@ -37,4 +37,8 @@ UsableItems_PartyMenu:
 	db ELIXER
 	db MAX_ELIXER
 	db MIST_STONE
+	db POWERPETFOOD
+	db RESTORADE
+	db HOT_SOUP
+	db ORANGE_JUICE
 	db -1 ; end
