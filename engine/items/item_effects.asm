@@ -102,6 +102,13 @@ ItemUsePtrTable:
 	dw ItemUsePPRestore  ; MAX_ELIXER
 	dw UnusableItem		 ; WING_FOSSIL
 	dw UnusableItem		 ; SHELL_FOSSIL
+<<<<<<< Updated upstream
+=======
+	dw ItemUseMedicine	 ; POWERPETFOOD
+	dw ItemUseMedicine	 ; RESTORADE
+	dw ItemUseMedicine	 ; HOT_SOUP
+	dw ItemUseMedicine	 ; ORANGE_JUICE 
+>>>>>>> Stashed changes
 
 ItemUseBall:
 
@@ -1084,6 +1091,18 @@ ItemUseMedicine:
 	jr nc, .addHealAmount
 	cp FRESH_WATER
 	ld b, 50 ; Fresh Water heal amount
+	jr z, .addHealAmount
+	cp RESTORADE
+	ld b, 100 ; Restoreade heal amount
+	jr z, .addHealAmount
+	cp ORANGE_JUICE
+	ld b, 70 ; Orange Juice heal amount
+	jr z, .addHealAmount
+	cp POWERPETFOOD
+	ld b, 400 ; PowerPetFood heal amount
+	jr z, .addHealAmount
+	cp HOT_SOUP
+	ld b, 150 ; Hot Soup heal amount
 	jr z, .addHealAmount
 	cp SUPER_POTION
 	ld b, 200 ; Hyper Potion heal amount

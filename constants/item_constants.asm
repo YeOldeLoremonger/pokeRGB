@@ -92,6 +92,12 @@ DEF SAFARI_ROCK EQU $16 ; overload
 	const MAX_ETHER     ; $51
 	const ELIXER        ; $52
 	const MAX_ELIXER    ; $53
+	const WING_FOSSIL	; $62
+	const SHELL_FOSSIL	; $63
+	const POWERPETFOOD  ; $64
+	const RESTORADE		; $65
+	const HOT_SOUP		; $66
+	const ORANGE_JUICE	; $67
 DEF NUM_ITEMS EQU const_value - 1
 
 ; elevator floors use item IDs
