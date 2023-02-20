@@ -2,7 +2,7 @@ _CeladonGameCornerText1::
 	text "Welcome!"
 
 	para "You can exchange"
-	line "your coins for"
+	line "your balls for"
 	cont "fabulous prizes"
 	cont "next door."
 	done
@@ -12,16 +12,16 @@ _CeladonGameCornerText_48d22::
 	line "GAME CORNER!"
 
 	para "Do you need some"
-	line "game coins?"
+	line "game balls?"
 
 	para "It's ¥1000 for 50"
-	line "coins. Would you"
+	line "balls. Would you"
 	cont "like some?"
 	done
 
 _CeladonGameCornerText_48d27::
 	text "Thanks! Here are"
-	line "your 50 coins!"
+	line "your 50 balls!"
 	done
 
 _CeladonGameCornerText_48d2c::
@@ -31,7 +31,7 @@ _CeladonGameCornerText_48d2c::
 
 _CeladonGameCornerText_48d31::
 	text "You can't afford"
-	line "the coins!"
+	line "the balls!"
 	done
 
 _CeladonGameCornerText_48d36::
@@ -65,12 +65,12 @@ _CeladonGameCornerText_48d9c::
 
 _Received10CoinsText::
 	text "<PLAYER> received"
-	line "10 coins!@"
+	line "10 balls!@"
 	text_end
 
 _CeladonGameCornerText_48da7::
 	text "You don't need my"
-	line "coins!"
+	line "balls!"
 	done
 
 _CeladonGameCornerText_48dac::
@@ -104,7 +104,7 @@ _CeladonGameCornerText_48dcf::
 	text "They offer rare"
 	line "#MON that can"
 	cont "be exchanged for"
-	cont "your coins."
+	cont "your balls."
 
 	para "But, I just can't"
 	line "seem to win!"
@@ -118,22 +118,22 @@ _CeladonGameCornerText8::
 
 _CeladonGameCornerText_48e26::
 	text "What's up? Want"
-	line "some coins?"
+	line "some balls?"
 	prompt
 
 _Received20CoinsText::
 	text "<PLAYER> received"
-	line "20 coins!@"
+	line "20 balls!@"
 	text_end
 
 _CeladonGameCornerText_48e31::
 	text "You have lots of"
-	line "coins!"
+	line "balls!"
 	done
 
 _CeladonGameCornerText_48e36::
 	text "Darn! I need more"
-	line "coins for the"
+	line "balls for the"
 	cont "#MON I want!"
 	done
 
@@ -141,17 +141,17 @@ _CeladonGameCornerText_48e88::
 	text "Hey, what? You're"
 	line "throwing me off!"
 	cont "Here are some"
-	cont "coins, shoo!"
+	cont "balls, shoo!"
 	prompt
 
 _CeladonGameCornerText_48e8d::
 	text "<PLAYER> received"
-	line "20 coins!@"
+	line "20 balls!@"
 	text_end
 
 _CeladonGameCornerText_48e93::
 	text "You've got your"
-	line "own coins!"
+	line "own balls!"
 	done
 
 _CeladonGameCornerText_48e98::

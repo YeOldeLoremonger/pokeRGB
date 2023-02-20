@@ -164,5 +164,10 @@ MoveNames::
 	li "SUPER FANG"
 	li "SLASH"
 	li "SUBSTITUTE"
+	li "STAR FREEZE"
+	li "UPPER CUT"
+	li "CAT NAIL"
+	li "HYDRO JET"
+	li "MEGAFIRE"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

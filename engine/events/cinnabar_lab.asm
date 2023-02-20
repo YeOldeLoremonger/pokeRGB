@@ -40,13 +40,23 @@ GiveFossilToCinnabarLab::
 	jr z, .choseDomeFossil
 	cp HELIX_FOSSIL
 	jr z, .choseHelixFossil
-	ld b, AERODACTYL
+	cp WING_FOSSIL
+	jr z, .choseWingFossil
+	cp SHELL_FOSSIL
+	jr z, .choseShellFossil
+	ld b, SCYTHER
 	jr .fossilSelected
 .choseHelixFossil
 	ld b, OMANYTE
 	jr .fossilSelected
 .choseDomeFossil
 	ld b, KABUTO
+	jr .fossilSelected
+.choseWingFossil
+	ld b, AERODACTYL
+	jr .fossilSelected
+.choseShellFossil
+	ld b, LAPRAS
 .fossilSelected
 	ld [wFossilItem], a
 	ld a, b

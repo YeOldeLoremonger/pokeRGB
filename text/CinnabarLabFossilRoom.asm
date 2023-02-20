@@ -46,7 +46,7 @@ _Lab4Text_610ae::
 	text_ram wStringBuffer
 	text ", a"
 	cont "#MON that is"
-	cont "already extinct!"
+	cont "supposedly extinct!"
 
 	para "My Resurrection"
 	line "Machine will make"

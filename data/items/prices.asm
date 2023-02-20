@@ -83,6 +83,12 @@ ItemPrices::
 	bcd3 0     ; MAX_ETHER
 	bcd3 0     ; ELIXER
 	bcd3 0     ; MAX_ELIXER
+	bcd3 0	   ; WING_FOSSIL
+	bcd3 0	   ; SHELL_FOSSIL
+	bcd3 4000  ; POWERPETFOOD
+	bcd3 400   ; RESTORADE
+	bcd3 800   ; HOT_SOUP
+	bcd3 325   ; ORANGE_JUICE
 	assert_table_length NUM_ITEMS
 	bcd3 0     ; FLOOR_B2F
 	bcd3 0     ; FLOOR_B1F

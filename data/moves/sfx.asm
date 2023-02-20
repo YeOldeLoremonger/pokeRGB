@@ -165,6 +165,11 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $f0, $ff ; SUPER_FANG
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; SLASH
 	db SFX_BATTLE_2C,          $d8, $04 ; SUBSTITUTE
+	db SFX_BATTLE_29,          $f9, $f0 ; STAR_FREEZE
+	db SFX_BATTLE_0B,          $00, $00 ; UPPER_CUT
+	db SFX_NOT_VERY_EFFECTIVE, $00, $80 ; CAT_NAIL
+	db SFX_BATTLE_2A,          $01, $90 ; HYDRO_JET
+	db SFX_BATTLE_29,          $2f, $80 ; MEGAFIRE
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

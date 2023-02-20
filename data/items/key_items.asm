@@ -43,7 +43,7 @@ KeyItemFlags:
 	dbit TRUE  ; DOME_FOSSIL
 	dbit TRUE  ; HELIX_FOSSIL
 	dbit TRUE  ; SECRET_KEY
-	dbit TRUE  ; UNUSED_ITEM
+	dbit TRUE  ; MIST_STONE
 	dbit TRUE  ; BIKE_VOUCHER
 	dbit FALSE ; X_ACCURACY
 	dbit FALSE ; LEAF_STONE
@@ -58,7 +58,7 @@ KeyItemFlags:
 	dbit FALSE ; SUPER_REPEL
 	dbit FALSE ; MAX_REPEL
 	dbit FALSE ; DIRE_HIT
-	dbit FALSE ; COIN
+	dbit FALSE ; PACHINKOBALL
 	dbit FALSE ; FRESH_WATER
 	dbit FALSE ; SODA_POP
 	dbit FALSE ; LEMONADE
@@ -68,7 +68,7 @@ KeyItemFlags:
 	dbit FALSE ; X_DEFEND
 	dbit FALSE ; X_SPEED
 	dbit FALSE ; X_SPECIAL
-	dbit TRUE  ; COIN_CASE
+	dbit TRUE  ; BALL_BAG
 	dbit TRUE  ; OAKS_PARCEL
 	dbit TRUE  ; ITEMFINDER
 	dbit TRUE  ; SILPH_SCOPE
@@ -83,4 +83,10 @@ KeyItemFlags:
 	dbit FALSE ; MAX_ETHER
 	dbit FALSE ; ELIXER
 	dbit FALSE ; MAX_ELIXER
+	dbit FALSE ; WING_FOSSIL
+	dbit FALSE ; SHELL_FOSSIL
+	dbit FALSE ; POWERPETFOOD
+	dbit FALSE ; RESTORADE
+	dbit FALSE ; HOT_SOUP
+	dbit FALSE ; ORANGE_JUICE
 	end_bit_array NUM_ITEMS

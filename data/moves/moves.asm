@@ -175,5 +175,10 @@ Moves:
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
+	move STAR_FREEZE,  DRAIN_HP_EFFECT,			   150, ICE,		   95,  3
+	move UPPER_CUT,    FLINCH_SIDE_EFFECT2,		   100, FIGHTING,	   95, 15
+	move CAT_NAIL,	   NO_ADDITIONAL_EFFECT,		50, NORMAL,		  100, 30
+	move HYDRO_JET,    FLINCH_SIDE_EFFECT1,		   150, WATER,		   95,  3
+	move MEGAFIRE,	   BURN_SIDE_EFFECT2,		   150, FIRE,		   95,  3
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS
