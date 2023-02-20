@@ -89,4 +89,9 @@ KeyItemFlags:
 	dbit FALSE ; RESTORADE
 	dbit FALSE ; HOT_SOUP
 	dbit FALSE ; ORANGE_JUICE
+	dbit FALSE ; FUJI_LETTER
+	dbit FALSE ; SECRET_BOOK
+	dbit FALSE ; MACHOKE_HAND
+	dbit FALSE ; P100_POWER
+	dbit FALSE ; DUMMY_BOMBER
 	end_bit_array NUM_ITEMS

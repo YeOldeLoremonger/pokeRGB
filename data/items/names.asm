@@ -89,6 +89,11 @@ ItemNames::
 	li "RESTORADE"
 	li "HOT SOUP"
 	li "ORANGE JUICE"
+	li "FUJI LETTER"
+	li "SECRET BOOK"
+	li "MACHOKE HAND"
+	li "P100_POWER"
+	li "DUMMY BOMBER"
 	assert_list_length NUM_ITEMS
 	li "B2F"
 	li "B1F"
@@ -104,6 +109,4 @@ ItemNames::
 	li "10F"
 	li "11F"
 	li "B4F"
-	li "WING FOSSIL"
-	li "SHELL FOSSIL"
 	assert_list_length NUM_ITEMS + NUM_FLOORS

@@ -89,6 +89,11 @@ ItemPrices::
 	bcd3 400   ; RESTORADE
 	bcd3 800   ; HOT_SOUP
 	bcd3 325   ; ORANGE_JUICE
+	bcd3 0	   ; FUJI_LETTER
+	bcd3 0	   ; SECRET_BOOK
+	bcd3 0	   ; MACHOKE_HAND
+	bcd3 0 	   ; P100_POWER
+	bcd3 0	   ; DUMMY_BOMBER
 	assert_table_length NUM_ITEMS
 	bcd3 0     ; FLOOR_B2F
 	bcd3 0     ; FLOOR_B1F
@@ -104,6 +109,4 @@ ItemPrices::
 	bcd3 0     ; FLOOR_10F
 	bcd3 0     ; FLOOR_11F
 	bcd3 0     ; FLOOR_B4F
-	bcd3 0	   ; WING_FOSSIL
-	bcd3 0	   ; SHELL_FOSSIL
 	assert_table_length NUM_ITEMS + NUM_FLOORS
