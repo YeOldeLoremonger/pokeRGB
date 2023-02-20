@@ -104,4 +104,6 @@ ItemNames::
 	li "10F"
 	li "11F"
 	li "B4F"
+	li "WING FOSSIL"
+	li "SHELL FOSSIL"
 	assert_list_length NUM_ITEMS + NUM_FLOORS
