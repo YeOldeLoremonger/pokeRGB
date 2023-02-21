@@ -165,42 +165,6 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $f0, $ff ; SUPER_FANG
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; SLASH
 	db SFX_BATTLE_2C,          $d8, $04 ; SUBSTITUTE
-	db SFX_BATTLE_29,          $f9, $f0 ; STAR_FREEZE
-	db SFX_BATTLE_0B,          $00, $00 ; UPPER_CUT
-	db SFX_NOT_VERY_EFFECTIVE, $00, $80 ; CAT_NAIL
-	db SFX_BATTLE_2A,          $01, $90 ; HYDRO_JET
-	db SFX_BATTLE_29,          $2f, $80 ; MEGAFIRE
-	db SFX_BATTLE_29,          $2f, $80 ; YUCKY
-	db SFX_BATTLE_29,          $2f, $80 ; ELECTROCUTE
-	db SFX_BATTLE_29,          $2f, $80 ; POWDER_SNOW
-	db SFX_BATTLE_29,          $2f, $80 ; FIREBALL
-	db SFX_BATTLE_29,          $2f, $80 ; PARASCISSOR
-	db SFX_BATTLE_29,          $2f, $80 ; BYEBYEPUNCH
-	db SFX_BATTLE_29,          $2f, $80 ; MEGATONKICK
-	db SFX_BATTLE_29,          $2f, $80 ; TAIL_SWIPES
-	db SFX_BATTLE_29,          $2f, $80 ; LUNGE
-	db SFX_BATTLE_29,          $2f, $80 ; TENMAN_VOLT
-	db SFX_BATTLE_29,          $2f, $80 ; FIFTYMANVOLT
-	db SFX_BATTLE_29,          $2f, $80 ; PUNCH
-	db SFX_BATTLE_29,          $2f, $80 ; KARATE
-	db SFX_BATTLE_29,          $2f, $80 ; BEAK_BASH
-	db SFX_BATTLE_29,          $2f, $80 ; HONEY_FLAME
-	db SFX_BATTLE_29,          $2f, $80 ; POISONEEDLE
-	db SFX_BATTLE_29,          $2f, $80 ; SCALD
-	db SFX_BATTLE_29,          $2f, $80 ; MOLT_SHELL
-	db SFX_BATTLE_29,          $2f, $80 ; FLOOD
-	db SFX_BATTLE_29,          $2f, $80 ; LANDSLIDE
-	db SFX_BATTLE_29,          $2f, $80 ; TRANSPARENT
-	db SFX_BATTLE_29,          $2f, $80 ; PORTCULLIS
-	db SFX_BATTLE_29,          $2f, $80 ; PSYCULLIS
-	db SFX_BATTLE_29,          $2f, $80 ; KENETICWALL
-	db SFX_BATTLE_29,          $2f, $80 ; SQUID_INK
-	db SFX_BATTLE_29,          $2f, $80 ; DOUBLEBACK
-	db SFX_BATTLE_29,          $2f, $80 ; DIVE_BOMB
-	db SFX_BATTLE_29,          $2f, $80 ; BARK
-	db SFX_BATTLE_29,          $2f, $80 ; PSYNAMI
-	db SFX_BATTLE_29,          $2f, $80 ; JUMP
-	db SFX_BATTLE_29,          $2f, $80 ; WHIRLPOOL
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

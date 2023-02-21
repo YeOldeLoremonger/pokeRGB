@@ -151,6 +151,10 @@ DebugItemsList:
 	db CARD_KEY, 1
 	db S_S_TICKET, 1
 	db LIFT_KEY, 1
+	db HOT_SOUP, 1
+	db ORANGE_JUICE, 1
+	db RESTORADE, 1
+	db POWERPETFOOD, 1
 	db -1 ; end
 
 DebugUnusedList:

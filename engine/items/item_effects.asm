@@ -106,11 +106,6 @@ ItemUsePtrTable:
 	dw ItemUseMedicine	 ; RESTORADE
 	dw ItemUseMedicine	 ; HOT_SOUP
 	dw ItemUseMedicine	 ; ORANGE_JUICE 
-	dw UnusableItem		 ; FUJI_LETTER
-	dw UnusableItem		 ; SECRET_BOOK
-	dw UnusableItem		 ; MACHOKE_HAND
-	dw UnusableItem	 	 ; P100_POWER
-	dw ItemUsePokedoll	 ; DUMMY_BOMBER
 
 ItemUseBall:
 

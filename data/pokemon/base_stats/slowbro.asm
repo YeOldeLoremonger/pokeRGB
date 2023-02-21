@@ -21,7 +21,7 @@
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, \
 	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     \
-	     FLASH,		   WHIRLPOOL,	 HYDRO_JET
+	     FLASH
 	; end
 
 	db 0 ; padding

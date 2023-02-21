@@ -170,43 +170,7 @@
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
-	const STAR_FREEZE  ; a5
-	const UPPER_CUT	   ; a6
-	const CAT_NAIL	   ; a7
-	const HYDRO_JET	   ; a8
-	const MEGAFIRE	   ; a9
-	const YUCKY		   ; aa
-	const ELECTROCUTE  ; ab
-	const POWDER_SNOW  ; ac
-	const FIREBALL	   ; ad
-	const PARASCISSOR  ; ae
-	const BYEBYEPUNCH  ; af
-	const MEGATONKICK  ; b0
-	const TAIL_SWIPES  ; b1
-	const LUNGE        ; b2
-	const TENMAN_VOLT  ; b3
-	const FIFTYMANVOLT ; b4
-	const PUNCH		   ; b5
-	const KARATE	   ; b6
-	const BEAK_BASH	   ; b7
-	const HONEY_FLAME  ; b8
-	const POISONEEDLE  ; b9
-	const SCALD		   ; ba
-	const MOLT_SHELL   ; bb
-	const FLOOD        ; bc
-	const LANDSLIDE	   ; bd
-	const TRANSPARENT  ; be
-	const PORTCULLIS   ; bf
-	const PSYCULLIS    ; c0
-	const KENETICWALL  ; c1
-	const SQUID_INK    ; c2
-	const DOUBLEBACK   ; c3
-	const DIVE_BOMB    ; c4
-	const BARK		   ; c5
-	const PSYNAMI	   ; c6
-	const JUMP 		   ; c7
-	const WHIRLPOOL	   ; c8
-	const STRUGGLE     ; c9
+	const STRUGGLE     ; a5
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.
