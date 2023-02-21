@@ -106,20 +106,20 @@ DEF SAFARI_ROCK EQU $16 ; overload
 DEF NUM_ITEMS EQU const_value - 1
 
 ; elevator floors use item IDs
-	const FLOOR_B2F     ; $5F
-	const FLOOR_B1F     ; $60
-	const FLOOR_1F      ; $61
-	const FLOOR_2F      ; $62
-	const FLOOR_3F      ; $63
-	const FLOOR_4F      ; $64
-	const FLOOR_5F      ; $65
-	const FLOOR_6F      ; $66
-	const FLOOR_7F      ; $67
-	const FLOOR_8F      ; $68
-	const FLOOR_9F      ; $69
-	const FLOOR_10F     ; $6A
-	const FLOOR_11F     ; $6B
-	const FLOOR_B4F     ; $6C
+	const FLOOR_B2F     ; $54
+	const FLOOR_B1F     ; $55
+	const FLOOR_1F      ; $56
+	const FLOOR_2F      ; $57
+	const FLOOR_3F      ; $58
+	const FLOOR_4F      ; $59
+	const FLOOR_5F      ; $5A
+	const FLOOR_6F      ; $5B
+	const FLOOR_7F      ; $5C
+	const FLOOR_8F      ; $5D
+	const FLOOR_9F      ; $5E
+	const FLOOR_10F     ; $5F
+	const FLOOR_11F     ; $60
+	const FLOOR_B4F     ; $61
 DEF NUM_FLOORS EQU const_value - 1 - NUM_ITEMS
 
 	const_next $C4
