@@ -99,6 +99,7 @@
 
 ; Vermilion City events
 	const_next $150
+	
 	const_skip
 	const EVENT_GOT_BIKE_VOUCHER
 	const_skip 4
@@ -771,6 +772,11 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
 	const EVENT_SEAFOAM4_BOULDER2_DOWN_HOLE
 	const_skip 8
 	const EVENT_BEAT_ARTICUNO
+	
+	const_next $9E0
+	const_skip
+	const EVENT_BEAT_MEW
+	
 
 ; End of events
 	const_next $A00
