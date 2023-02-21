@@ -146,23 +146,11 @@ DebugItemsList:
 	db ESCAPE_ROPE, 99
 	db RARE_CANDY, 99
 	db MASTER_BALL, 99
-<<<<<<< HEAD
-	db HM_WHIRLPOOL, 1
-	db HM_JUMP, 1
-	db TM_MEGAFIRE, 1
-	db TM_POISONEEDLE, 1
-	db TM_HYDRO_JET, 1
-=======
 	db TOWN_MAP, 1
 	db SECRET_KEY, 1
 	db CARD_KEY, 1
 	db S_S_TICKET, 1
 	db LIFT_KEY, 1
-	db HOT_SOUP, 1
-	db ORANGE_JUICE, 1
-	db RESTORADE, 1
-	db POWERPETFOOD, 1
->>>>>>> parent of 9524f80b (Merge branch 'master' of https://github.com/YeOldeLoremonger/pokeRGB97)
 	db -1 ; end
 
 DebugUnusedList:

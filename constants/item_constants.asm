@@ -106,7 +106,6 @@ DEF SAFARI_ROCK EQU $16 ; overload
 DEF NUM_ITEMS EQU const_value - 1
 
 ; elevator floors use item IDs
-<<<<<<< HEAD
 	const FLOOR_B2F     ; $5F
 	const FLOOR_B1F     ; $60
 	const FLOOR_1F      ; $61
@@ -121,22 +120,6 @@ DEF NUM_ITEMS EQU const_value - 1
 	const FLOOR_10F     ; $6A
 	const FLOOR_11F     ; $6B
 	const FLOOR_B4F     ; $6C
-=======
-	const FLOOR_B2F     ; $54
-	const FLOOR_B1F     ; $55
-	const FLOOR_1F      ; $56
-	const FLOOR_2F      ; $57
-	const FLOOR_3F      ; $58
-	const FLOOR_4F      ; $59
-	const FLOOR_5F      ; $5A
-	const FLOOR_6F      ; $5B
-	const FLOOR_7F      ; $5C
-	const FLOOR_8F      ; $5D
-	const FLOOR_9F      ; $5E
-	const FLOOR_10F     ; $5F
-	const FLOOR_11F     ; $60
-	const FLOOR_B4F     ; $61
->>>>>>> parent of 9524f80b (Merge branch 'master' of https://github.com/YeOldeLoremonger/pokeRGB97)
 DEF NUM_FLOORS EQU const_value - 1 - NUM_ITEMS
 
 	const_next $C4
