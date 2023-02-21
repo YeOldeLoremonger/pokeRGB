@@ -777,6 +777,10 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
 	const_skip
 	const EVENT_BEAT_MEW
 	
+	const_next $9F0
+	const_skip
+	const EVENT_BEAT_GROWLITHE
+	
 
 ; End of events
 	const_next $A00

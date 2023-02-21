@@ -114,7 +114,7 @@ MapHSPointers:
 	dw VictoryRoad1FHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw GreenClayGrottosB1FHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -566,5 +566,7 @@ SeafoamIslandsB4FHS:
 	db SEAFOAM_ISLANDS_B4F, $03, SHOW
 VermilionDockHS:
 	db VERMILION_DOCK, $01, SHOW
+GreenClayGrottosB1FHS:
+	db GREEN_CLAY_GROTTOS_B1F, $01, SHOW
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1
