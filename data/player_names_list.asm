@@ -25,3 +25,17 @@ DefaultNamesRivalList:
 	db "ASH@"
 	db "JACK@"
 ENDC
+
+IF DEF(_GREEN)
+DefaultNamesPlayerList:
+	db "NEW NAME@"
+	db "GREEN@"
+	db "ASH@"
+	db "JORDAN@"
+
+DefaultNamesRivalList:
+	db "NEW NAME@"
+	db "GARY@"
+	db "BLUE@"
+	db "JESS@"
+ENDC

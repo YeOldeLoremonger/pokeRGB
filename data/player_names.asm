@@ -29,3 +29,18 @@ DefaultNamesRival:
 	next "JACK"
 	db   "@"
 ENDC
+
+IF DEF(_GREEN)
+DefaultNamesPlayer:
+	db	 "NEW NAME"
+	next "GREEN"
+	next "ASH"
+	next "JORDAN"
+	db   "@"
+
+DefaultNamesRival:
+	db	 "NEW NAME"
+	next "GARY"
+	next "BLUE"
+	next "JESS"
+ENDC

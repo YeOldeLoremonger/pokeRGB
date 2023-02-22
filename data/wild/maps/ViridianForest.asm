@@ -20,6 +20,17 @@ IF DEF(_BLUE)
 	db  4, KAKUNA
 	db  3, WEEDLE
 ENDC
+IF DEF(_GREEN)
+	db  3, CATERPIE
+	db  3, WEEDLE
+	db  4, CATERPIE
+	db  4, WEEDLE
+	db  6, KAKUNA
+	db  6, METAPOD
+	db  5, KAKUNA
+	db  5, METAPOD
+ENDC
+
 	db  3, PIKACHU
 	db  5, PIKACHU
 	end_grass_wildmons

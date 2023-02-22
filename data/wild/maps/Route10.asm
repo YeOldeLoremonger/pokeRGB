@@ -21,6 +21,15 @@ IF DEF(_BLUE)
 	db 13, SANDSHREW
 	db 17, SANDSHREW
 ENDC
+IF DEF(_GREEN)
+	db 11, EKANS
+	db 13, SPEAROW
+	db 11, SANDSHREW
+	db 17, VOLTORB
+	db 17, SPEAROW
+	db 17, SANDSHREW
+	db 17, EKANS
+ENDC
 	end_grass_wildmons
 
 	def_water_wildmons 20 ; encounter rate
