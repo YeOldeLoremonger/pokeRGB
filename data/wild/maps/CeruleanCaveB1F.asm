@@ -8,11 +8,16 @@ CeruleanCaveB1FWildMons:
 	db 64, RAICHU
 IF DEF(_RED)
 	db 57, ARBOK
+	db 65, DITTO
 ENDC
 IF DEF(_BLUE)
 	db 57, SANDSLASH
-ENDC
 	db 65, DITTO
+ENDC
+IF DEF(_GREEN)
+	db 57, ARBOK
+	db 57, SANDSLASH
+ENDC
 	db 63, DITTO
 	db 67, DITTO
 	end_grass_wildmons

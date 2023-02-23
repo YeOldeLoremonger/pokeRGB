@@ -24,6 +24,18 @@ IF DEF(_BLUE)
 	db 38, DEWGONG
 	db 37, KINGLER
 ENDC
+IF DEF(_GREEN)
+	db 31, KRABBY
+	db 31, STARYU
+	db 31, HORSEA
+	db 31, SHELLDER
+	db 31, PSYDUCK
+	db 31, SLOWPOKE
+	db 30, SEEL
+	db 39, DEWGONG
+	db 39, KINGLER
+	db 39, SEADRA
+ENDC
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

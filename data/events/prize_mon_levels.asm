@@ -5,7 +5,7 @@ IF DEF(_RED)
 	db NIDORINA, 17
 
 	db DRATINI,  18
-	db SCYTHER,  25
+	db PINSIR,   25
 	db PORYGON,  26
 ENDC
 IF DEF(_BLUE)
@@ -16,4 +16,13 @@ IF DEF(_BLUE)
 	db PINSIR,   20
 	db DRATINI,  24
 	db PORYGON,  18
+ENDC
+IF DEF(_GREEN_)
+	db ABRA,	  2
+	db CLEFAIRY,  2
+	db RHYHORN,   2
+	
+	db PINSIR,	  2
+	db DRATINI,   2
+	db PORYGON,   2
 ENDC

@@ -23,6 +23,17 @@ IF DEF(_BLUE)
 	db 30, GOLBAT
 	db 37, GOLDUCK
 ENDC
+IF DEF(_GREEN)
+	db 31, KRABBY
+	db 31, STARYU
+	db 31, HORSEA
+	db 31, SHELLDER
+	db 31, PSYDUCK
+	db 31, SLOWPOKE
+	db 39, GOLBAT
+	db 39, GOLDUCK
+	db 39, SLOWBRO
+ENDC
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
