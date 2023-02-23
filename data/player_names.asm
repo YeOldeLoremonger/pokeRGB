@@ -43,4 +43,5 @@ DefaultNamesRival:
 	next "GARY"
 	next "BLUE"
 	next "JESS"
+	db   "@"
 ENDC
