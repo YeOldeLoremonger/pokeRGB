@@ -1096,7 +1096,7 @@ ItemUseMedicine:
 	ld b, 70 ; Orange Juice heal amount
 	jr z, .addHealAmount
 	cp POWERPETFOOD
-	ld b, 400 ; PowerPetFood heal amount
+	ld b, 255 ; PowerPetFood heal amount
 	jr z, .addHealAmount
 	cp HOT_SOUP
 	ld b, 150 ; Hot Soup heal amount
