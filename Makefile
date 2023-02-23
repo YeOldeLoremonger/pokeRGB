@@ -2,6 +2,7 @@ roms := \
 	pokered.gbc \
 	pokegreen.gbc \
 	pokeblue.gbc \
+	pokegreen.gbc \
 	pokeblue_debug.gbc
 patches := \
 	pokered.patch \
@@ -54,6 +55,7 @@ all: $(roms)
 red:        pokered.gbc
 green:		pokegreen.gbc
 blue:       pokeblue.gbc
+green:		pokegreen.gbc
 blue_debug: pokeblue_debug.gbc
 red_vc:     pokered.patch
 green_vc:	pokegreen.patch
@@ -105,6 +107,7 @@ $(pokeblue_debug_obj): RGBASMFLAGS += -D _BLUE -D _DEBUG
 $(pokered_vc_obj):     RGBASMFLAGS += -D _RED -D _RED_VC
 $(pokegreen_vc_obj):   RGBASMFLAGS += -D _GREEN -D _GREEN_VC
 $(pokeblue_vc_obj):    RGBASMFLAGS += -D _BLUE -D _BLUE_VC
+$(pokegreen_vc_obj):   RGBASMFLAGS += -D _GREEN -D _GREEN_VC
 
 %.patch: vc/%.constants.sym %_vc.gbc %.gbc vc/%.patch.template
 	tools/make_patch $*_vc.sym $^ $@
