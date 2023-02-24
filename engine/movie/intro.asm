@@ -463,11 +463,11 @@ ENDC
 
 IF DEF(_GREEN)
 FightIntroFrontMon:
-	INCBIN "gfx/intro/green_nidorino_1.2bpp"
+	INCBIN "gfx/intro/green_ivysaur_1.2bpp"
 FightIntroFrontMon2:
-	INCBIN "gfx/intro/green_nidorino_2.2bpp"
+	INCBIN "gfx/intro/green_ivysaur_2.2bpp"
 FightIntroFrontMon3:
-	INCBIN "gfx/intro/green_nidorino_3.2bpp"
+	INCBIN "gfx/intro/green_ivysaur_3.2bpp"
 ENDC
 
 FightIntroFrontMonEnd:

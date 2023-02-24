@@ -8,6 +8,9 @@ CeladonDiner_TextPointers:
 	dw CeladonDinerText3
 	dw CeladonDinerText4
 	dw CeladonDinerText5
+	dw PickUpItemText
+	dw PickUpItemText
+	dw PickUpItemText
 
 CeladonDinerText1:
 	text_far _CeladonDinerText1

@@ -11,7 +11,7 @@ WildDataPointers:
 	dw Route21WildMons         ; CINNABAR_ISLAND
 	dw VictoryRoad1FWildMons   ; INDIGO_PLATEAU
 	dw Route7WildMons          ; SAFFRON_CITY
-	dw NothingWildMons         ; BRICK_CITY
+	dw VictoryRoad1FWildMons   ; BRICK_CITY
 	dw Route1WildMons          ; ROUTE_1
 	dw Route2WildMons          ; ROUTE_2
 	dw Route3WildMons          ; ROUTE_3

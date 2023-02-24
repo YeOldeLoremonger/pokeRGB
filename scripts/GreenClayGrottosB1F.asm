@@ -30,6 +30,7 @@ GrowlitheText:
 	jp TextScriptEnd
 
 GrowlitheBattleText:
+	text_far _GrowlitheBattleText
 	text_asm
 	ld a, GROWLITHE
 	call PlayCry

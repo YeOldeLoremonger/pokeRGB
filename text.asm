@@ -259,6 +259,8 @@ INCLUDE "text/CeladonCity.asm"
 INCLUDE "text/FuchsiaCity.asm"
 INCLUDE "text/CinnabarIsland.asm"
 INCLUDE "text/SaffronCity.asm"
+INCLUDE "text/GreenClayGrottosB1F.asm"
+INCLUDE "text/BrickCity.asm"
 
 INCLUDE "data/text/text_6.asm"
 
