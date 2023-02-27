@@ -7,8 +7,14 @@ PokemonTower6FWildMons:
 	db 20, GASTLY
 	db 19, GASTLY
 	db 26, HAUNTER
+IF DEF(_BLUE) || DEF(_RED)
+	db 20, CUBONE
 	db 22, CUBONE
-	db 24, CUBONE
+ENDC
+IF DEF(_GREEN)
+	db 20, BULBASAUR
+	db 22, BULBASAUR
+ENDC
 	db 28, HAUNTER
 	end_grass_wildmons
 

@@ -1,6 +1,11 @@
 VictoryRoad2FWildMons:
 	def_grass_wildmons 10 ; encounter rate
+IF DEF(_BLUE) || DEF(_GREEN)
 	db 22, MACHOP
+ENDC
+IF DEF(_RED)
+	db 22, CHARMANDER
+ENDC
 	db 24, GEODUDE
 	db 26, ZUBAT
 	db 36, ONIX

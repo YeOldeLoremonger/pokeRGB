@@ -3,11 +3,17 @@ RockTunnel1FWildMons:
 	db 16, ZUBAT
 	db 17, ZUBAT
 	db 17, GEODUDE
+IF DEF(_BLUE) || DEF(_GREEN)
 	db 15, MACHOP
+	db 17, MACHOP
+ENDC
+IF DEF(_RED)
+	db 15, CHARMANDER
+	db 17, CHARMANDER
+ENDC
 	db 16, GEODUDE
 	db 18, ZUBAT
 	db 15, ZUBAT
-	db 17, MACHOP
 	db 13, ONIX
 	db 15, ONIX
 	end_grass_wildmons

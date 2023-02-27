@@ -399,6 +399,7 @@ CinnabarGymHiddenObjects:
 CinnabarPokecenterHiddenObjects:
 	hidden_object  0,  4, SPRITE_FACING_UP, PrintBenchGuyText
 	hidden_object 13,  3, SPRITE_FACING_UP, OpenPokemonCenterPC
+	hidden_object 12,  6, SURFBOARD, HiddenItems
 	db -1 ; end
 
 SaffronGymHiddenObjects:

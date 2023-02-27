@@ -8,13 +8,17 @@ LavenderTown_Object:
 	warp_event 15, 13, LAVENDER_MART, 1
 	warp_event  3, 13, LAVENDER_CUBONE_HOUSE, 1
 	warp_event  7, 13, NAME_RATERS_HOUSE, 1
+IF DEF(_GREEN)
+	warp_event  3,  9, CELADON_MANSION_ROOF_HOUSE, 2
+	warp_event  3,  9, CELADON_MANSION_ROOF_HOUSE, 2
+ENDC
 
 	def_bg_events
 	bg_event 11,  9, 4 ; LavenderTownText4
 	bg_event  9,  3, 5 ; LavenderTownText5
 	bg_event 16, 13, 6 ; MartSignText
 	bg_event  4,  5, 7 ; PokeCenterSignText
-	bg_event  5,  9, 8 ; LavenderTownText8
+	bg_event  5, 11, 8 ; LavenderTownText8
 	bg_event 17,  7, 9 ; LavenderTownText9
 
 	def_object_events

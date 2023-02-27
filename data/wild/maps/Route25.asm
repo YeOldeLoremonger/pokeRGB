@@ -6,9 +6,9 @@ IF DEF(_RED)
 	db 13, PIDGEY
 	db 12, ODDISH
 	db 13, ODDISH
-	db 12, ABRA
+	db 12, BULBASAUR
 	db 14, ODDISH
-	db 10, ABRA
+	db 10, BULBASAUR
 	db  7, METAPOD
 	db  8, CATERPIE
 ENDC

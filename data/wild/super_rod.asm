@@ -42,16 +42,31 @@ SuperRodData:
 .Group1:
 	db 2
 	db 15, TENTACOOL
+IF DEF(_GREEN) || DEF(_BLUE)
 	db 15, POLIWAG
+ENDC
+IF DEF(_RED)
+	db 15, SQUIRTLE
+ENDC
 
 .Group2:
 	db 2
 	db 15, GOLDEEN
+IF DEF(_GREEN) || DEF(_BLUE)
 	db 15, POLIWAG
+ENDC
+IF DEF(_RED)
+	db 15, SQUIRTLE
+ENDC
 
 .Group3:
 	db 3
-	db 15, PSYDUCK
+IF DEF(_GREEN) || DEF(_BLUE)
+	db 15, BULBASAUR
+ENDC
+IF DEF(_RED)
+	db 15, SQUIRTLE
+ENDC
 	db 15, GOLDEEN
 	db 15, KRABBY
 
@@ -62,14 +77,29 @@ SuperRodData:
 
 .Group5:
 	db 2
+IF DEF(_GREEN) || DEF(_BLUE)
 	db 23, POLIWHIRL
+ENDC
+IF DEF(_RED)
+	db 23, WARTORTLE
+ENDC
 	db 15, SLOWPOKE
 
 .Group6:
 	db 4
+IF DEF(_BLUE)
 	db 15, DRATINI
+ENDC
+IF DEF(_RED) || DEF(_GREEN)
+	DB 15, SQUIRTLE
 	db 15, KRABBY
+ENDC
+IF DEF(_GREEN) || DEF(_BLUE)
 	db 15, PSYDUCK
+ENDC
+IF DEF(_RED)
+	db 15, SQUIRTLE
+ENDC
 	db 15, SLOWPOKE
 
 .Group7:

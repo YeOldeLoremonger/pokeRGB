@@ -2,8 +2,18 @@ CeladonMansionRoofHouse_Object:
 	db $a ; border block
 
 	def_warp_events
-	warp_event  2,  7, CELADON_MANSION_ROOF, 3
-	warp_event  3,  7, CELADON_MANSION_ROOF, 3
+IF DEF(_RED)
+	warp_event  2,  7, VIRIDIAN_CITY, 6
+	warp_event  3,  7, VIRIDIAN_CITY, 6
+ENDC
+IF DEF(_GREEN)
+	warp_event  2,  7, LAVENDER_TOWN, 8
+	warp_event  3,  7, LAVENDER_TOWN, 8
+ENDC
+IF DEF(_BLUE)
+	warp_event  2,  7, CINNABAR_LAB, 6
+	warp_event  3,  7, CINNABAR_LAB, 6
+ENDC
 
 	def_bg_events
 

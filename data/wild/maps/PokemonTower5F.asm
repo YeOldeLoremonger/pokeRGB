@@ -7,8 +7,14 @@ PokemonTower5FWildMons:
 	db 19, GASTLY
 	db 18, GASTLY
 	db 25, HAUNTER
+IF DEF(_BLUE) || DEF(_RED)
 	db 20, CUBONE
 	db 22, CUBONE
+ENDC
+IF DEF(_GREEN)
+	db 20, BULBASAUR
+	db 22, BULBASAUR
+ENDC
 	db 24, GASTLY
 	end_grass_wildmons
 

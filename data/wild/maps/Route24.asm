@@ -6,8 +6,10 @@ IF DEF(_RED)
 	db 12, PIDGEY
 	db 12, ODDISH
 	db 13, ODDISH
-	db 10, ABRA
+	db 10, BULBASAUR
 	db 14, ODDISH
+	db  8, BULBASAUR
+	db 12, BULBASAUR
 ENDC
 IF DEF(_BLUE)
 	db  7, CATERPIE
@@ -17,6 +19,8 @@ IF DEF(_BLUE)
 	db 13, BELLSPROUT
 	db 10, ABRA
 	db 14, BELLSPROUT
+	db  8, ABRA
+	db 12, ABRA
 ENDC
 IF DEF(_GREEN)
 	db  8, WEEDLE
@@ -26,10 +30,10 @@ IF DEF(_GREEN)
 	db 12, BELLSPROUT
 	db 12, ABRA
 	db 14, ODDISH
-ENDC
-	db 13, PIDGEY
 	db  8, ABRA
 	db 12, ABRA
+ENDC
+	db 13, PIDGEY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -8,8 +8,14 @@ GreenClayGrottosB1F_Object:
 	def_bg_events
 
 	def_object_events
+IF DEF(_GREEN)
+	object_event  4, 11, SPRITE_MONSTER, WALK, ANY_DIR, 1, CHARMANDER, 2
+ENDC
+IF DEF(_BLUE) || DEF(_RED)
 	object_event  4, 11, SPRITE_MONSTER, WALK, ANY_DIR, 1, GROWLITHE, 2
+ENDC
 	object_event 16,  9, SPRITE_POKE_BALL, STAY, NONE, 2, ULTRA_BALL
 	object_event 18,  1, SPRITE_POKE_BALL, STAY, NONE, 3, MAX_REVIVE
+
 
 	def_warps_to GREEN_CLAY_GROTTOS_B1F

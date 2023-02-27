@@ -7,16 +7,18 @@ NoThanksText:
 	db "NO THANKS@"
 
 PrizeMenuMon1Entries:
-	db ABRA
 	db CLEFAIRY
 IF DEF(_RED)
 	db NIDORINA
+	db BULBASAUR
 ENDC
 IF DEF(_BLUE)
 	db NIDORINO
+	db ABRA
 ENDC
 IF DEF(_GREEN)
 	db RHYHORN
+	db ABRA
 ENDC
 	db "@"
 
@@ -38,7 +40,7 @@ ENDC
 
 PrizeMenuMon2Entries:
 IF DEF(_RED)
-	db DRATINI
+	db EEVEE
 	db PINSIR
 ENDC
 IF DEF(_BLUE)
@@ -47,7 +49,7 @@ IF DEF(_BLUE)
 ENDC
 IF DEF(_GREEN)
 	db PINSIR
-	db DRATINI
+	db EEVEE
 ENDC
 	db PORYGON
 	db "@"

@@ -11,7 +11,15 @@ CeladonMansion5Text1:
 
 CeladonMansion5Text2:
 	text_asm
-	lb bc, EEVEE, 25
+IF DEF(_RED)
+	lb bc, DRATINI, 2
+ENDC
+IF DEF(_GREEN)
+	lb bc, DRATINI, 20
+ENDC
+IF DEF(_BLUE)
+	lb bc, EEVEE, 35
+ENDC
 	call GivePokemon
 	jr nc, .party_full
 	ld a, HS_CELADON_MANSION_EEVEE_GIFT

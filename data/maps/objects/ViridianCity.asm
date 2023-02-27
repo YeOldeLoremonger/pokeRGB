@@ -7,6 +7,9 @@ ViridianCity_Object:
 	warp_event 21, 15, VIRIDIAN_SCHOOL_HOUSE, 1
 	warp_event 21,  9, VIRIDIAN_NICKNAME_HOUSE, 1
 	warp_event 32,  7, VIRIDIAN_GYM, 1
+IF DEF(_RED)
+	warp_event 11,  3, CELADON_MANSION_ROOF_HOUSE, 2
+ENDC
 
 	def_bg_events
 	bg_event 17, 17,  8 ; ViridianCityText8

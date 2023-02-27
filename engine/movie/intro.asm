@@ -443,30 +443,34 @@ FightIntroBackMon:
 	ds 16, $00 ; blank tile
 FightIntroBackMonEnd:
 
-IF DEF(_RED)
 FightIntroFrontMon:
+IF DEF(_RED)
 	INCBIN "gfx/intro/red_nidorino_1.2bpp"
+ENDC
+IF DEF(_BLUE)
+	INCBIN "gfx/intro/blue_jigglypuff_1.2bpp"
+ENDC
+IF DEF(_GREEN)
+	INCBIN "gfx/intro/green_ivysaur_1.2bpp"
+ENDC
 FightIntroFrontMon2:
+IF DEF(_RED)
 	INCBIN "gfx/intro/red_nidorino_2.2bpp"
+ENDC
+IF DEF(_BLUE)
+	INCBIN "gfx/intro/blue_jigglypuff_2.2bpp"
+ENDC
+IF DEF(_GREEN)
+	INCBIN "gfx/intro/green_ivysaur_2.2bpp"
+ENDC
 FightIntroFrontMon3:
+IF DEF(_RED)
 	INCBIN "gfx/intro/red_nidorino_3.2bpp"
 ENDC
-
 IF DEF(_BLUE)
-FightIntroFrontMon:
-	INCBIN "gfx/intro/blue_jigglypuff_1.2bpp"
-FightIntroFrontMon2:
-	INCBIN "gfx/intro/blue_jigglypuff_2.2bpp"
-FightIntroFrontMon3:
 	INCBIN "gfx/intro/blue_jigglypuff_3.2bpp"
 ENDC
-
 IF DEF(_GREEN)
-FightIntroFrontMon:
-	INCBIN "gfx/intro/green_ivysaur_1.2bpp"
-FightIntroFrontMon2:
-	INCBIN "gfx/intro/green_ivysaur_2.2bpp"
-FightIntroFrontMon3:
 	INCBIN "gfx/intro/green_ivysaur_3.2bpp"
 ENDC
 
