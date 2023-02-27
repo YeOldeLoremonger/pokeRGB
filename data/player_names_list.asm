@@ -35,7 +35,7 @@ DefaultNamesPlayerList:
 
 DefaultNamesRivalList:
 	db "NEW NAME@"
-	db "GARY@"
 	db "BLUE@"
+	db "GARY@"
 	db "JESS@"
 ENDC

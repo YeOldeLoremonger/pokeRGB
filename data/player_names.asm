@@ -40,8 +40,8 @@ DefaultNamesPlayer:
 
 DefaultNamesRival:
 	db	 "NEW NAME"
-	next "GARY"
 	next "BLUE"
+	next "GARY"
 	next "JESS"
 	db   "@"
 ENDC
