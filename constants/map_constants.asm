@@ -20,12 +20,12 @@ ENDM
 	map_const VIRIDIAN_CITY,                 20, 18 ; $01
 	map_const PEWTER_CITY,                   20, 18 ; $02
 	map_const CERULEAN_CITY,                 20, 18 ; $03
-	map_const VERMILION_CITY,                20, 18 ; $04
-	map_const LAVENDER_TOWN,                 10,  9 ; $05
+	map_const LAVENDER_TOWN,                 10,  9 ; $04
+	map_const VERMILION_CITY,                20, 18 ; $05
 	map_const CELADON_CITY,                  25, 18 ; $06
-	map_const SAFFRON_CITY,                  20, 18 ; $07
-	map_const FUCHSIA_CITY,                  20, 18 ; $08
+	map_const FUCHSIA_CITY,                  20, 18 ; $07
 	map_const CINNABAR_ISLAND,               10,  9 ; $08
+	map_const SAFFRON_CITY,                  20, 18 ; $09
 	map_const INDIGO_PLATEAU,                10,  9 ; $0A
 	map_const BRICK_CITY,                    30, 30 ; $0B
 DEF NUM_CITY_MAPS EQU const_value
