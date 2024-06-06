@@ -16,4 +16,6 @@ HiddenCoinCoords:
 	hidden_coin GAME_CORNER, 11,  7
 	hidden_coin GAME_CORNER, 15,  8
 	hidden_coin GAME_CORNER, 12, 15
+	hidden_coin REDS_HOUSE_2F, 2,  1
+	hidden_coin REDS_HOUSE_2F, 3,  4
 	db -1 ; end

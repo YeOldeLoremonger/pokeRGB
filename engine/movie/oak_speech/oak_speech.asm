@@ -47,7 +47,13 @@ OakSpeech:
 	call SetDefaultNames
 	predef InitPlayerData2
 	ld hl, wNumBoxItems
-	ld a, POTION
+	ld a, FRESH_WATER
+	ld [wcf91], a
+	ld a, 1
+	ld [wItemQuantity], a
+	call AddItemToInventory  ; give one potion
+	ld hl, wNumBoxItems
+	ld a, COIN_CASE
 	ld [wcf91], a
 	ld a, 1
 	ld [wItemQuantity], a

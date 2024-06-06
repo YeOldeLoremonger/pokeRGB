@@ -12,7 +12,7 @@ Route1Text1:
 	jr nz, .got_item
 	ld hl, Route1ViridianMartSampleText
 	call PrintText
-	lb bc, POTION, 1
+	lb bc, TOWN_MAP, 1
 	call GiveItem
 	jr nc, .bag_full
 	ld hl, Route1Text_1cae8

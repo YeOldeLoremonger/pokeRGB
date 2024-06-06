@@ -12,7 +12,7 @@ Route8_Object:
 	bg_event 17,  3, 10 ; Route8Text10
 
 	def_object_events
-	object_event  8,  5, SPRITE_SUPER_NERD, WALK, ANY_DIR, 1, OPP_SUPER_NERD, 3
+	object_event  8,  6, SPRITE_SUPER_NERD, WALK, ANY_DIR, 1, OPP_SUPER_NERD, 3
 	object_event 13,  9, SPRITE_GAMBLER, WALK, ANY_DIR, 2, OPP_GAMBLER, 5
 	object_event 42,  6, SPRITE_SUPER_NERD, WALK, ANY_DIR, 3, OPP_SUPER_NERD, 4
 	object_event 26,  3, SPRITE_COOLTRAINER_F, STAY, LEFT, 4, OPP_LASS, 13

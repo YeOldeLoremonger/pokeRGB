@@ -9,7 +9,7 @@ Route12_Object:
 
 	def_bg_events
 	bg_event 13, 13, 11 ; Route12Text11
-	bg_event 11, 63, 12 ; Route12Text12
+	bg_event  9, 61, 12 ; Route12Text12
 
 	def_object_events
 	object_event 10, 62, SPRITE_SNORLAX, STAY, DOWN, 1 ; person

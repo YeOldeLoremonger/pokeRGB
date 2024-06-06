@@ -4,7 +4,7 @@ SaffronCity_Object:
 	def_warp_events
 	warp_event  7,  5, COPYCATS_HOUSE_1F, 1
 	warp_event 26,  3, FIGHTING_DOJO, 1
-	warp_event 34,  3, SAFFRON_GYM, 1
+	warp_event 33,  3, SAFFRON_GYM, 1
 	warp_event 13, 11, SAFFRON_PIDGEY_HOUSE, 1
 	warp_event 25, 11, SAFFRON_MART, 1
 	warp_event 18, 21, SILPH_CO_1F, 1
@@ -26,7 +26,7 @@ SaffronCity_Object:
 	def_object_events
 	object_event  7,  6, SPRITE_ROCKET, STAY, NONE, 1 ; person
 	object_event 20,  8, SPRITE_ROCKET, WALK, LEFT_RIGHT, 2 ; person
-	object_event 34,  4, SPRITE_ROCKET, STAY, NONE, 3 ; person
+	object_event 33,  4, SPRITE_ROCKET, STAY, NONE, 3 ; person
 	object_event 13, 12, SPRITE_ROCKET, STAY, NONE, 4 ; person
 	object_event 11, 25, SPRITE_ROCKET, WALK, ANY_DIR, 5 ; person
 	object_event 32, 13, SPRITE_ROCKET, WALK, ANY_DIR, 6 ; person

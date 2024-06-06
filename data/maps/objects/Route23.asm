@@ -11,12 +11,12 @@ Route23_Object:
 	bg_event  3, 33, 8 ; Route23Text8
 
 	def_object_events
-	object_event  4, 35, SPRITE_GUARD, WALK, LEFT_RIGHT, 1 ; person
-	object_event 10, 56, SPRITE_GUARD, WALK, LEFT_RIGHT, 2 ; person
-	object_event  8, 85, SPRITE_SWIMMER, WALK, LEFT_RIGHT, 3 ; person
-	object_event 11, 96, SPRITE_SWIMMER, WALK, LEFT_RIGHT, 4 ; person
-	object_event 12, 105, SPRITE_GUARD, WALK, LEFT_RIGHT, 5 ; person
-	object_event  8, 119, SPRITE_GUARD, WALK, LEFT_RIGHT, 6 ; person
-	object_event  8, 136, SPRITE_GUARD, WALK, LEFT_RIGHT, 7 ; person
+	object_event 18, 23, SPRITE_GUARD, WALK, LEFT_RIGHT, 1 ; person
+	object_event 18, 24, SPRITE_GUARD, WALK, LEFT_RIGHT, 2 ; person
+	object_event 18, 25, SPRITE_SWIMMER, WALK, LEFT_RIGHT, 3 ; person
+	object_event 18, 26, SPRITE_SWIMMER, WALK, LEFT_RIGHT, 4 ; person
+	object_event 18, 27, SPRITE_GUARD, WALK, LEFT_RIGHT, 5 ; person
+	object_event 18, 28, SPRITE_GUARD, WALK, LEFT_RIGHT, 6 ; person
+	object_event 18, 29, SPRITE_GUARD, WALK, LEFT_RIGHT, 7 ; person
 
 	def_warps_to ROUTE_23

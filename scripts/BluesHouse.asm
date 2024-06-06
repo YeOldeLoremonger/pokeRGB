@@ -35,7 +35,7 @@ BluesHouseDaisySittingText:
 .give_town_map
 	ld hl, DaisyOfferMapText
 	call PrintText
-	lb bc, TOWN_MAP, 1
+	lb bc, SURFBOARD, 1
 	call GiveItem
 	jr nc, .bag_full
 	ld a, HS_TOWN_MAP
