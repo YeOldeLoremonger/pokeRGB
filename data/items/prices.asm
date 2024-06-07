@@ -34,7 +34,7 @@ ItemPrices::
 	bcd3 2100  ; FIRE_STONE
 	bcd3 2100  ; THUNDER_STONE
 	bcd3 2100  ; WATER_STONE
-	bcd3 9800  ; HP_UP
+	bcd3 100   ; HP_UP
 	bcd3 9800  ; PROTEIN
 	bcd3 9800  ; IRON
 	bcd3 9800  ; CARBOS
