@@ -36,7 +36,8 @@ SECTION "rst30", ROM0[$0030]
 	ds $38 - @, 0 ; unused
 
 SECTION "rst38", ROM0[$0038]
-	rst $38
+_Bankswitch::
+    jp Bankswitch
 
 	ds $40 - @, 0 ; unused
 
