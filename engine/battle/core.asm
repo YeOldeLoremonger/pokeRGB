@@ -1885,6 +1885,28 @@ DrawEnemyHUDAndHPBar:
 	lb bc, 4, 12
 	call ClearScreenArea
 	callfar PlaceEnemyHUDTiles
+		;============================== start of code to add the caught symbol
+	push hl
+	ld a, [wEnemyMonSpecies2]
+	ld [wd11e], a
+	ld hl, IndexToPokedex
+	ld b, BANK(IndexToPokedex)
+	call Bankswitch
+	ld a, [wd11e]
+	dec a
+	ld c, a
+	ld b, FLAG_TEST
+	ld hl, wPokedexOwned
+	predef FlagActionPredef
+	ld a, c
+	and a
+	jr z, .notOwned
+	coord hl, 1, 1 ; horizontal/vertical
+	ld [hl], $72 ; replace this with your Poké Ball icon or other character
+	.notOwned
+	pop hl
+	;============================== end of new code
+
 	ld de, wEnemyMonNick
 	hlcoord 1, 0
 	call CenterMonName
