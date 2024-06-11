@@ -39,7 +39,9 @@ EnterMap::
 	ld [wJoyIgnore], a
 
 OverworldLoop::
-	call DelayFrame
+	;call DelayFrame ;60fps
+	call Check60fps
+	call z, DelayFrame
 OverworldLoopLessDelay::
 	call DelayFrame
 	call LoadGBPal
@@ -261,7 +263,12 @@ OverworldLoopLessDelay::
 	jp c, OverworldLoop
 
 .noCollision
-	ld a, $08
+	;60fps - counter is doubled
+	call Check60fps
+	ld a, $8
+	jr z, .pc60fpsCounter
+	ld a, $10
+	.pc60fpsCounter
 	ld [wWalkCounter], a
 	jr .moveAhead2
 
@@ -1455,7 +1462,17 @@ AdvancePlayerSprite::
 	ld [wXCoord], a
 .afterUpdateMapCoords
 	ld a, [wWalkCounter] ; walking animation counter
-	cp $07
+	;60fps - counter is doubled
+	push bc
+	ld b, a
+	call Check60fps
+	ld a, b
+	ld b, $07
+	jr z, .pc60fpsCounterComp
+	ld b, $0F
+	.pc60fpsCounterComp
+	cp b
+	pop bc
 	jp nz, .scrollBackgroundAndSprites
 ; if this is the first iteration of the animation
 	ld a, c
@@ -1602,8 +1619,12 @@ AdvancePlayerSprite::
 	ld b, a
 	ld a, [wSpritePlayerStateData1XStepVector]
 	ld c, a
+	;60fps - halve the x & y deltas
+	call Check60fps
+	jr nz, .xy60fpsEnd
 	sla b
 	sla c
+	.xy60fpsEnd
 	ldh a, [hSCY]
 	add b
 	ldh [hSCY], a ; update background scroll Y
@@ -2452,4 +2473,9 @@ LoadDestinationWarpPosition::
 	pop af
 	ldh [hLoadedROMBank], a
 	ld [MBC1RomBank], a
+	ret
+
+Check60fps:
+	ld a, [wUnusedDA38]
+	bit 4, a
 	ret

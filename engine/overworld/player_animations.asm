@@ -497,6 +497,8 @@ _HandleMidJump::
 	ld a, [wPlayerJumpingYScreenCoordsIndex]
 	ld c, a
 	inc a
+	;60fps - only update every other tick
+	call Ledge60fps
 	cp $10
 	jr nc, .finishedJump
 	ld [wPlayerJumpingYScreenCoordsIndex], a
@@ -528,3 +530,11 @@ _HandleMidJump::
 PlayerJumpingYScreenCoords:
 ; Sequence of y screen coordinates for player's sprite when jumping over a ledge.
 	db $38, $36, $34, $32, $31, $30, $30, $30, $31, $32, $33, $34, $36, $38, $3C, $3C
+
+Ledge60fps:
+push hl
+	ld h, $c2
+	ld l, $0a ;point HL to C20A, the address of the player object 60FPS byte, which holds either 0 or 1
+	sub [hl] ;subtract the value in C20A from the incremented Y index in A, which undoes the increment every other frame
+	pop hl
+	ret

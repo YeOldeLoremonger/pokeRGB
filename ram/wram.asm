@@ -108,7 +108,7 @@ ENDR
 
 ; more data for all sprites on the current map
 ; holds info for 16 sprites with $10 bytes each
-wSpriteStateData2::
+wSpriteStateData2:: ;c200
 ; struct fields:
 ; - 0: walk animation counter (counting from $10 backwards when moving)
 ; - 1:
@@ -120,7 +120,7 @@ wSpriteStateData2::
 ; - 7: (?) (set to $80 when in grass, else $0; may be used to draw grass above the sprite)
 ; - 8: delay until next movement (counted downwards, movement status is set to ready if reached 0)
 ; - 9: original facing direction (backed up by DisplayTextIDInit, restored by CloseTextDisplay)
-; - A
+; - A 60fps
 ; - B
 ; - C
 ; - D: picture ID
