@@ -100,10 +100,18 @@ TestBattle:
 	ld [wCurMap], a
 	call AddPartyMon
 
+	; This function gives you a way to waste a turn, never know when you'll need it.
+	; Alternatively, add a move to test.
+	ld hl, wPartyMon1Moves
+	ld a, SPLASH
+	ld [hli], a
+
 	; Fight against a
 	; level 20 Rhydon.
 	ld a, RHYDON
 	ld [wCurOpponent], a
+	ld a, 20 ; Set the level you want here.
+	ld [wCurEnemyLVL], a
 
 	predef InitOpponent
 

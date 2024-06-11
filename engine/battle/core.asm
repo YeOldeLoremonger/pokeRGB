@@ -6146,8 +6146,6 @@ GetCurrentMove:
 .player
 	ld de, wPlayerMoveNum
 	ld a, [wFlags_D733]
-	bit BIT_TEST_BATTLE, a
-	ld a, [wTestBattlePlayerSelectedMove]
 	jr nz, .selected
 	ld a, [wPlayerSelectedMove]
 .selected
