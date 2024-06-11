@@ -13,3 +13,6 @@ CeruleanMartText2:
 CeruleanMartText3:
 	text_far _CeruleanMartText3
 	text_end
+
+CeruleanCashierText:
+	script_mart POKE_BALL, POTION, REPEL, ANTIDOTE, FRESH_WATER, AWAKENING, PARLYZ_HEAL, HP_UP
