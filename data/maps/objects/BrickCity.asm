@@ -2,7 +2,7 @@ BrickCity_Object:
 	db $0F ; border block
 
 	def_warp_events
-	warp_event 58, 55, BRICK_CAVE, 3
+	warp_event 58, 55, BRICK_CAVE, 2
 	warp_event 24, 31, GREEN_CLAY_GROTTOS_1F, 1
 	warp_event 40, 13, GREEN_CLAY_GROTTOS_B1F, 2
 	warp_event 47, 47, BRICK_CITY_POKECENTER, 1

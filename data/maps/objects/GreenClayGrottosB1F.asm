@@ -8,7 +8,7 @@ GreenClayGrottosB1F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  4, 11, SPRITE_MONSTER, WALK, ANY_DIR, 1, GROWLITHE, 2
+	object_event  4, 11, SPRITE_MONSTER, WALK, ANY_DIR, 1, GROWLITHE, 2 | OW_POKEMON
 	object_event 16,  9, SPRITE_POKE_BALL, STAY, NONE, 2, ULTRA_BALL
 	object_event 18,  1, SPRITE_POKE_BALL, STAY, NONE, 3, MAX_REVIVE
 

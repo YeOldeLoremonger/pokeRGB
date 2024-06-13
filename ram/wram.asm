@@ -1688,7 +1688,9 @@ wPseudoItemID:: db
 
 wUnusedD153:: db
 
-	ds 2
+wIsTrainerBattle:: db
+
+wWasTrainerBattle:: db
 
 wEvoStoneItemID:: db
 

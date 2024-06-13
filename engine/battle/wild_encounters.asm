@@ -101,6 +101,7 @@ TryDoWildEncounter:
 	ret
 .willEncounter
 	xor a
+	ld [wIsTrainerBattle], a
 	ret
 
 INCLUDE "data/wild/probabilities.asm"
